@@ -1,0 +1,7876 @@
+[
+  {
+    "day": 1,
+    "title": "第 1 天 · 启程",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d1-s1-q1",
+            "type": "calc",
+            "prompt": "3 + 48 =",
+            "answer": 51,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q2",
+            "type": "calc",
+            "prompt": "4 + 23 =",
+            "answer": 27,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q3",
+            "type": "calc",
+            "prompt": "7 + 5 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q4",
+            "type": "calc",
+            "prompt": "100 - 50 =",
+            "answer": 50,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q5",
+            "type": "calc",
+            "prompt": "9 + 5 - 5 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q6",
+            "type": "calc",
+            "prompt": "50 + 20 - 30 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q7",
+            "type": "calc",
+            "prompt": "43 + 9 =",
+            "answer": 52,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q8",
+            "type": "calc",
+            "prompt": "50 + 30 =",
+            "answer": 80,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q9",
+            "type": "calc",
+            "prompt": "65 + 7 =",
+            "answer": 72,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q10",
+            "type": "calc",
+            "prompt": "33 + 6 =",
+            "answer": 39,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q11",
+            "type": "calc",
+            "prompt": "19 - 8 - 2 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d1-s1-q12",
+            "type": "calc",
+            "prompt": "62 - 50 + 7 =",
+            "answer": 19,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "比大小",
+        "icon": "⚖️",
+        "questions": [
+          {
+            "type": "compare",
+            "prompt": "19−6 ○ 12",
+            "answer": ">",
+            "hint": "13>12",
+            "id": "d1-s2-q1"
+          },
+          {
+            "type": "compare",
+            "prompt": "3+8 ○ 19−6",
+            "answer": "<",
+            "id": "d1-s2-q2"
+          },
+          {
+            "type": "compare",
+            "prompt": "16+3 ○ 12+7",
+            "answer": "=",
+            "id": "d1-s2-q3"
+          },
+          {
+            "type": "compare",
+            "prompt": "14−6 ○ 10",
+            "answer": "<",
+            "id": "d1-s2-q4"
+          },
+          {
+            "type": "compare",
+            "prompt": "18 ○ 18−8",
+            "answer": ">",
+            "id": "d1-s2-q5"
+          },
+          {
+            "type": "compare",
+            "prompt": "14−3 ○ 7+3",
+            "answer": ">",
+            "id": "d1-s2-q6"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "速算夺红旗",
+        "icon": "🏁",
+        "questions": [
+          {
+            "type": "chain",
+            "prompt": "从 12 开始",
+            "start": 12,
+            "ops": [
+              "+2",
+              "+10",
+              "+20",
+              "+4",
+              "+30"
+            ],
+            "answer": [
+              14,
+              24,
+              44,
+              48,
+              78
+            ],
+            "id": "d1-s3-q1"
+          },
+          {
+            "type": "chain",
+            "prompt": "从 4 开始",
+            "start": 4,
+            "ops": [
+              "+20",
+              "+10",
+              "+4",
+              "+1",
+              "+40"
+            ],
+            "answer": [
+              24,
+              34,
+              38,
+              39,
+              79
+            ],
+            "id": "d1-s3-q2"
+          },
+          {
+            "type": "chain",
+            "prompt": "从 30 开始",
+            "start": 30,
+            "ops": [
+              "+30",
+              "+2",
+              "+6",
+              "+1",
+              "+30"
+            ],
+            "answer": [
+              60,
+              62,
+              68,
+              69,
+              99
+            ],
+            "id": "d1-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🚌",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "一年级 98 人去旅游。第一辆车坐 40 人，第二辆坐 55 人。还有多少人不能上车？",
+            "answer": 3,
+            "hint": "98-40-55",
+            "id": "d1-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小宏每上1层，爸爸同时上2层。小宏一共上了3层，爸爸一共上了几层？",
+            "answer": 6,
+            "accept": [
+              6,
+              "6层"
+            ],
+            "id": "d1-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "title": "第 2 天 · 钱币与火车",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d2-s1-q1",
+            "type": "calc",
+            "prompt": "30 + 47 =",
+            "answer": 77,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q2",
+            "type": "calc",
+            "prompt": "4 + 23 =",
+            "answer": 27,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q3",
+            "type": "calc",
+            "prompt": "24 + 9 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q4",
+            "type": "calc",
+            "prompt": "3 + 46 =",
+            "answer": 49,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q5",
+            "type": "calc",
+            "prompt": "45 - 5 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q6",
+            "type": "calc",
+            "prompt": "12 - 9 + 18 =",
+            "answer": 21,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q7",
+            "type": "calc",
+            "prompt": "70 - 60 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q8",
+            "type": "calc",
+            "prompt": "41 + 6 =",
+            "answer": 47,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q9",
+            "type": "calc",
+            "prompt": "40 - 8 =",
+            "answer": 32,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q10",
+            "type": "calc",
+            "prompt": "6 + 5 - 4 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q11",
+            "type": "calc",
+            "prompt": "83 - 30 =",
+            "answer": 53,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d2-s1-q12",
+            "type": "calc",
+            "prompt": "60 - 20 - 40 =",
+            "answer": 0,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "元角分加减",
+        "icon": "💰",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "7角9分+5角1分=？(可写1元2角)",
+            "answer": "1元2角",
+            "accept": [
+              "1元2角",
+              "12角",
+              "120分"
+            ],
+            "id": "d2-s2-q1"
+          },
+          {
+            "type": "word",
+            "prompt": "3元1角+5元2角=？",
+            "answer": "8元3角",
+            "accept": [
+              "8元3角"
+            ],
+            "id": "d2-s2-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "8元+9元=？",
+            "answer": 17,
+            "accept": [
+              17,
+              "17元"
+            ],
+            "id": "d2-s2-q3"
+          },
+          {
+            "type": "word",
+            "prompt": "6角2分-1角2分=？",
+            "answer": "5角",
+            "accept": [
+              "5角",
+              "50分"
+            ],
+            "id": "d2-s2-q4"
+          },
+          {
+            "type": "word",
+            "prompt": "6元1角-3元8角=？",
+            "answer": "2元3角",
+            "accept": [
+              "2元3角"
+            ],
+            "id": "d2-s2-q5"
+          },
+          {
+            "type": "word",
+            "prompt": "8角-8分=？",
+            "answer": "7角2分",
+            "accept": [
+              "7角2分",
+              "72分"
+            ],
+            "id": "d2-s2-q6"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "开火车",
+        "icon": "🚂",
+        "questions": [
+          {
+            "type": "chain",
+            "prompt": "起点 20",
+            "start": 20,
+            "ops": [
+              "+40",
+              "-10",
+              "+30",
+              "-50",
+              "+70"
+            ],
+            "answer": [
+              60,
+              50,
+              80,
+              30,
+              100
+            ],
+            "id": "d2-s3-q1"
+          },
+          {
+            "type": "chain",
+            "prompt": "起点 70",
+            "start": 70,
+            "ops": [
+              "-40",
+              "+20",
+              "-10",
+              "+30",
+              "-60"
+            ],
+            "answer": [
+              30,
+              50,
+              40,
+              70,
+              10
+            ],
+            "id": "d2-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "⭐",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小红第一次剪 15 个五角星，第二次同样多。两次一共？",
+            "answer": 30,
+            "id": "d2-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "14 人排队，从左数红红第 4，从右数明明第 4。两人之间几人？",
+            "answer": 6,
+            "id": "d2-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "title": "第 3 天 · 数位",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d3-s1-q1",
+            "type": "calc",
+            "prompt": "20 + 3 =",
+            "answer": 23,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q2",
+            "type": "calc",
+            "prompt": "5 + 31 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q3",
+            "type": "calc",
+            "prompt": "53 + 20 =",
+            "answer": 73,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q4",
+            "type": "calc",
+            "prompt": "8 + 51 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q5",
+            "type": "calc",
+            "prompt": "28 + 9 + 5 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q6",
+            "type": "calc",
+            "prompt": "89 - 7 =",
+            "answer": 82,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q7",
+            "type": "calc",
+            "prompt": "20 + 87 =",
+            "answer": 107,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q8",
+            "type": "calc",
+            "prompt": "3 + 43 =",
+            "answer": 46,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q9",
+            "type": "calc",
+            "prompt": "8 + 51 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q10",
+            "type": "calc",
+            "prompt": "81 - 7 =",
+            "answer": 74,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q11",
+            "type": "calc",
+            "prompt": "70 - 2 + 9 =",
+            "answer": 77,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d3-s1-q12",
+            "type": "calc",
+            "prompt": "93 - 60 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "想一想填一填",
+        "icon": "🧩",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "65−3=？",
+            "answer": 62,
+            "id": "d3-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "36−8=？",
+            "answer": 28,
+            "id": "d3-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "25+20=？",
+            "answer": 45,
+            "id": "d3-s2-q3"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "100最高位是（）位；1在（）位，表示（）个（）",
+            "blanks": 4,
+            "answer": [
+              "百",
+              "百",
+              1,
+              "百"
+            ],
+            "accept": [
+              [
+                "百",
+                "百",
+                "1",
+                "百"
+              ],
+              [
+                "百",
+                "百",
+                1,
+                "百"
+              ]
+            ],
+            "id": "d3-s3-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "46个位是（），表示（）；十位是（），4表示（）",
+            "blanks": 4,
+            "answer": [
+              6,
+              "6个一",
+              4,
+              "4个十"
+            ],
+            "accept": [
+              [
+                6,
+                "6个一",
+                4,
+                "4个十"
+              ],
+              [
+                "6",
+                "6个一",
+                "4",
+                "4个十"
+              ],
+              [
+                6,
+                6,
+                4,
+                40
+              ]
+            ],
+            "id": "d3-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "两位数，十位比个位大4，个位比1小。这个数是？",
+            "answer": 40,
+            "id": "d3-s3-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "比10大比20小有（）个；个位十位相同的是（）",
+            "blanks": 2,
+            "answer": [
+              9,
+              11
+            ],
+            "accept": [
+              [
+                9,
+                11
+              ],
+              [
+                "9",
+                "11"
+              ]
+            ],
+            "id": "d3-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🏃",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小明前面4人后面4人，一队共几人？",
+            "answer": 9,
+            "id": "d3-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小强7岁老师30岁。5年后老师比小强大几岁？",
+            "answer": 23,
+            "id": "d3-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "title": "第 4 天 · 前后数",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d4-s1-q1",
+            "type": "calc",
+            "prompt": "1 + 90 =",
+            "answer": 91,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q2",
+            "type": "calc",
+            "prompt": "20 - 8 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q3",
+            "type": "calc",
+            "prompt": "66 + 5 =",
+            "answer": 71,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q4",
+            "type": "calc",
+            "prompt": "38 + 3 + 4 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q5",
+            "type": "calc",
+            "prompt": "7 - 7 =",
+            "answer": 0,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q6",
+            "type": "calc",
+            "prompt": "68 - 6 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q7",
+            "type": "calc",
+            "prompt": "31 - 5 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q8",
+            "type": "calc",
+            "prompt": "89 - 2 =",
+            "answer": 87,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q9",
+            "type": "calc",
+            "prompt": "60 - 40 =",
+            "answer": 20,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q10",
+            "type": "calc",
+            "prompt": "41 - 20 - 7 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q11",
+            "type": "calc",
+            "prompt": "45 - 3 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d4-s1-q12",
+            "type": "calc",
+            "prompt": "20 + 6 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "七十写作（），比最大两位数小（）",
+            "blanks": 2,
+            "answer": [
+              70,
+              29
+            ],
+            "accept": [
+              [
+                70,
+                29
+              ],
+              [
+                "70",
+                "29"
+              ]
+            ],
+            "id": "d4-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "49前（）后（）；与99相邻（）（）；34后面第三个数（）",
+            "blanks": 5,
+            "answer": [
+              48,
+              50,
+              98,
+              100,
+              37
+            ],
+            "accept": [
+              [
+                48,
+                50,
+                98,
+                100,
+                37
+              ],
+              [
+                "48",
+                "50",
+                "98",
+                "100",
+                "37"
+              ]
+            ],
+            "id": "d4-s2-q2"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "80连续减4四次：",
+            "blanks": 4,
+            "answer": [
+              76,
+              72,
+              68,
+              64
+            ],
+            "accept": [
+              [
+                76,
+                72,
+                68,
+                64
+              ],
+              [
+                "76",
+                "72",
+                "68",
+                "64"
+              ]
+            ],
+            "id": "d4-s2-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "80前面4个数（从大到小）",
+            "blanks": 4,
+            "answer": [
+              79,
+              78,
+              77,
+              76
+            ],
+            "accept": [
+              [
+                79,
+                78,
+                77,
+                76
+              ],
+              [
+                "79",
+                "78",
+                "77",
+                "76"
+              ]
+            ],
+            "id": "d4-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "圆盘算",
+        "icon": "🍩",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "79−1=？",
+            "answer": 78,
+            "id": "d4-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "79−8=？",
+            "answer": 71,
+            "id": "d4-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "51−5=？",
+            "answer": 46,
+            "id": "d4-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "56−5=？",
+            "answer": 51,
+            "id": "d4-s3-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "65−5=？",
+            "answer": 60,
+            "id": "d4-s3-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "86−5=？",
+            "answer": 81,
+            "id": "d4-s3-q6"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🍪",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "买18个○，爸爸吃4个，我吃3个，还剩几个○？",
+            "answer": 11,
+            "id": "d4-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "正着报数报7，倒着报9，一共几人？",
+            "answer": 15,
+            "hint": "7+9-1",
+            "id": "d4-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "title": "第 5 天 · 钱币比较",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d5-s1-q1",
+            "type": "calc",
+            "prompt": "73 - 40 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q2",
+            "type": "calc",
+            "prompt": "8 + 45 =",
+            "answer": 53,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q3",
+            "type": "calc",
+            "prompt": "12 - 7 =",
+            "answer": 5,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q4",
+            "type": "calc",
+            "prompt": "14 - 5 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q5",
+            "type": "calc",
+            "prompt": "63 + 20 =",
+            "answer": 83,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q6",
+            "type": "calc",
+            "prompt": "38 + 3 + 4 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q7",
+            "type": "calc",
+            "prompt": "28 + 54 =",
+            "answer": 82,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q8",
+            "type": "calc",
+            "prompt": "15 - 5 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q9",
+            "type": "calc",
+            "prompt": "18 - 9 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q10",
+            "type": "calc",
+            "prompt": "59 - 9 =",
+            "answer": 50,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q11",
+            "type": "calc",
+            "prompt": "19 + 5 =",
+            "answer": 24,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d5-s1-q12",
+            "type": "calc",
+            "prompt": "41 - 9 + 5 =",
+            "answer": 37,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "钱币比大小",
+        "icon": "💵",
+        "questions": [
+          {
+            "type": "compare",
+            "prompt": "5角 ○ 5元",
+            "answer": "<",
+            "id": "d5-s2-q1"
+          },
+          {
+            "type": "compare",
+            "prompt": "6元 ○ 5元9角",
+            "answer": ">",
+            "id": "d5-s2-q2"
+          },
+          {
+            "type": "compare",
+            "prompt": "9元9角 ○ 9角9分",
+            "answer": ">",
+            "id": "d5-s2-q3"
+          },
+          {
+            "type": "compare",
+            "prompt": "70分 ○ 7元",
+            "answer": "<",
+            "id": "d5-s2-q4"
+          },
+          {
+            "type": "compare",
+            "prompt": "1元 ○ 100分",
+            "answer": "=",
+            "id": "d5-s2-q5"
+          },
+          {
+            "type": "compare",
+            "prompt": "1元8角 ○ 18角",
+            "answer": "=",
+            "id": "d5-s2-q6"
+          },
+          {
+            "type": "compare",
+            "prompt": "5元 ○ 7元",
+            "answer": "<",
+            "id": "d5-s2-q7"
+          },
+          {
+            "type": "compare",
+            "prompt": "30角 ○ 1元",
+            "answer": ">",
+            "id": "d5-s2-q8"
+          },
+          {
+            "type": "compare",
+            "prompt": "7元9角 ○ 9元7角",
+            "answer": "<",
+            "id": "d5-s2-q9"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "按规律填数",
+        "icon": "🔢",
+        "questions": [
+          {
+            "type": "pattern",
+            "prompt": "70、75、80、__、__、__",
+            "answer": [
+              85,
+              90,
+              95
+            ],
+            "accept": [
+              [
+                85,
+                90,
+                95
+              ],
+              [
+                "85",
+                "90",
+                "95"
+              ]
+            ],
+            "id": "d5-s3-q1"
+          },
+          {
+            "type": "pattern",
+            "prompt": "67、57、47、__、__、__",
+            "answer": [
+              37,
+              27,
+              17
+            ],
+            "accept": [
+              [
+                37,
+                27,
+                17
+              ],
+              [
+                "37",
+                "27",
+                "17"
+              ]
+            ],
+            "id": "d5-s3-q2"
+          },
+          {
+            "type": "pattern",
+            "prompt": "7、14、21、__、__、__",
+            "answer": [
+              28,
+              35,
+              42
+            ],
+            "accept": [
+              [
+                28,
+                35,
+                42
+              ],
+              [
+                "28",
+                "35",
+                "42"
+              ]
+            ],
+            "id": "d5-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🦆",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "鹅13只，鸭比鹅多12只。鸭有几只？",
+            "answer": 25,
+            "id": "d5-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "用2、3、4、5各一次填：( )+( )−( )=( )",
+            "blanks": 4,
+            "answer": [
+              5,
+              2,
+              3,
+              4
+            ],
+            "accept": [
+              [
+                5,
+                2,
+                3,
+                4
+              ],
+              [
+                5,
+                2,
+                4,
+                3
+              ],
+              [
+                2,
+                5,
+                3,
+                4
+              ],
+              [
+                2,
+                5,
+                4,
+                3
+              ],
+              [
+                4,
+                3,
+                2,
+                5
+              ],
+              [
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                "5",
+                "2",
+                "3",
+                "4"
+              ],
+              [
+                "4",
+                "3",
+                "2",
+                "5"
+              ]
+            ],
+            "id": "d5-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "title": "第 6 天 · 排序连线",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d6-s1-q1",
+            "type": "calc",
+            "prompt": "23 + 6 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q2",
+            "type": "calc",
+            "prompt": "65 + 30 =",
+            "answer": 95,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q3",
+            "type": "calc",
+            "prompt": "23 + 5 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q4",
+            "type": "calc",
+            "prompt": "10 - 1 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q5",
+            "type": "calc",
+            "prompt": "81 - 6 =",
+            "answer": 75,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q6",
+            "type": "calc",
+            "prompt": "37 - 2 - 2 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q7",
+            "type": "calc",
+            "prompt": "37 + 50 =",
+            "answer": 87,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q8",
+            "type": "calc",
+            "prompt": "80 - 40 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q9",
+            "type": "calc",
+            "prompt": "32 + 3 =",
+            "answer": 35,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q10",
+            "type": "calc",
+            "prompt": "95 - 90 =",
+            "answer": 5,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q11",
+            "type": "calc",
+            "prompt": "33 + 4 =",
+            "answer": 37,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d6-s1-q12",
+            "type": "calc",
+            "prompt": "89 - 1 + 1 =",
+            "answer": 89,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "从大到小排",
+        "icon": "📊",
+        "questions": [
+          {
+            "type": "order",
+            "prompt": "先算再从大到小点选",
+            "items": [
+              {
+                "id": "a",
+                "text": "13−6"
+              },
+              {
+                "id": "b",
+                "text": "17−9"
+              },
+              {
+                "id": "c",
+                "text": "11−8"
+              },
+              {
+                "id": "d",
+                "text": "15−6"
+              },
+              {
+                "id": "e",
+                "text": "12−8"
+              }
+            ],
+            "answer": [
+              "d",
+              "b",
+              "a",
+              "e",
+              "c"
+            ],
+            "id": "d6-s2-q1"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "连一连",
+        "icon": "🏀",
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "得数相同连起来",
+            "left": [
+              {
+                "id": "l1",
+                "text": "11−8"
+              },
+              {
+                "id": "l2",
+                "text": "15−7"
+              },
+              {
+                "id": "l3",
+                "text": "16−9"
+              },
+              {
+                "id": "l4",
+                "text": "12−6"
+              },
+              {
+                "id": "l5",
+                "text": "13−8"
+              },
+              {
+                "id": "l6",
+                "text": "11−7"
+              }
+            ],
+            "right": [
+              {
+                "id": "r1",
+                "text": "16−8"
+              },
+              {
+                "id": "r2",
+                "text": "14−7"
+              },
+              {
+                "id": "r3",
+                "text": "12−7"
+              },
+              {
+                "id": "r4",
+                "text": "13−9"
+              },
+              {
+                "id": "r5",
+                "text": "10−7"
+              },
+              {
+                "id": "r6",
+                "text": "14−8"
+              }
+            ],
+            "answer": [
+              [
+                "l1",
+                "r5"
+              ],
+              [
+                "l2",
+                "r1"
+              ],
+              [
+                "l3",
+                "r2"
+              ],
+              [
+                "l4",
+                "r6"
+              ],
+              [
+                "l5",
+                "r3"
+              ],
+              [
+                "l6",
+                "r4"
+              ]
+            ],
+            "id": "d6-s3-q1"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📚",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "书96本，第一周借28，第二周借30，还剩？",
+            "answer": 38,
+            "id": "d6-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "15、11、13、13、11、15、9、17、7、（）、（）、21、3",
+            "blanks": 2,
+            "answer": [
+              19,
+              5
+            ],
+            "accept": [
+              [
+                19,
+                5
+              ],
+              [
+                "19",
+                "5"
+              ]
+            ],
+            "id": "d6-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "title": "第 7 天 · 十和一",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d7-s1-q1",
+            "type": "calc",
+            "prompt": "100 - 40 =",
+            "answer": 60,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q2",
+            "type": "calc",
+            "prompt": "46 + 40 =",
+            "answer": 86,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q3",
+            "type": "calc",
+            "prompt": "21 + 64 =",
+            "answer": 85,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q4",
+            "type": "calc",
+            "prompt": "51 - 40 =",
+            "answer": 11,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q5",
+            "type": "calc",
+            "prompt": "50 - 22 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q6",
+            "type": "calc",
+            "prompt": "52 + 20 + 8 =",
+            "answer": 80,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q7",
+            "type": "calc",
+            "prompt": "86 - 83 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q8",
+            "type": "calc",
+            "prompt": "54 + 39 =",
+            "answer": 93,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q9",
+            "type": "calc",
+            "prompt": "55 + 27 =",
+            "answer": 82,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q10",
+            "type": "calc",
+            "prompt": "52 + 8 =",
+            "answer": 60,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q11",
+            "type": "calc",
+            "prompt": "78 - 9 =",
+            "answer": 69,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d7-s1-q12",
+            "type": "calc",
+            "prompt": "67 - 6 + 5 =",
+            "answer": 66,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "数一数",
+        "icon": "🥚",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "2个十和5个一：几个十、几个一、合起来",
+            "blanks": 3,
+            "answer": [
+              2,
+              5,
+              25
+            ],
+            "accept": [
+              [
+                2,
+                5,
+                25
+              ],
+              [
+                "2",
+                "5",
+                "25"
+              ]
+            ],
+            "visual": "2盒+5个",
+            "id": "d7-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "5个十和8个一：几个十、几个一、合起来",
+            "blanks": 3,
+            "answer": [
+              5,
+              8,
+              58
+            ],
+            "accept": [
+              [
+                5,
+                8,
+                58
+              ],
+              [
+                "5",
+                "8",
+                "58"
+              ]
+            ],
+            "id": "d7-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "宫格填数",
+        "icon": "🔲",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "行21、?、23 与 41、?、43，两问号",
+            "blanks": 2,
+            "answer": [
+              22,
+              42
+            ],
+            "accept": [
+              [
+                22,
+                42
+              ],
+              [
+                "22",
+                "42"
+              ]
+            ],
+            "id": "d7-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "中心66，左边小1是？",
+            "answer": 65,
+            "id": "d7-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "中心45，右边大1是？",
+            "answer": 46,
+            "id": "d7-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "中心85，上边小10是？",
+            "answer": 75,
+            "id": "d7-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🦋",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "花丛35只，飞走6，又来12，现在几只？",
+            "answer": 41,
+            "id": "d7-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🚌",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "班车在9:10、9:25、9:40开出，每15分钟一班。小明9:20到站，还要等几分钟？",
+            "answer": 5,
+            "id": "d7-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "title": "第 8 天 · 括号填数",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d8-s1-q1",
+            "type": "calc",
+            "prompt": "93 - 26 =",
+            "answer": 67,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q2",
+            "type": "calc",
+            "prompt": "19 - 5 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q3",
+            "type": "calc",
+            "prompt": "69 + 6 =",
+            "answer": 75,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q4",
+            "type": "calc",
+            "prompt": "72 + 12 =",
+            "answer": 84,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q5",
+            "type": "calc",
+            "prompt": "97 - 55 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q6",
+            "type": "calc",
+            "prompt": "7 + 3 + 6 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q7",
+            "type": "calc",
+            "prompt": "16 + 50 =",
+            "answer": 66,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q8",
+            "type": "calc",
+            "prompt": "79 - 73 =",
+            "answer": 6,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q9",
+            "type": "calc",
+            "prompt": "17 + 73 =",
+            "answer": 90,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q10",
+            "type": "calc",
+            "prompt": "97 - 70 =",
+            "answer": 27,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q11",
+            "type": "calc",
+            "prompt": "76 + 23 =",
+            "answer": 99,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d8-s1-q12",
+            "type": "calc",
+            "prompt": "67 - 6 + 5 =",
+            "answer": 66,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "算一算连一连",
+        "icon": "🐶",
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "算式连得数",
+            "left": [
+              {
+                "id": "l1",
+                "text": "50+9"
+              },
+              {
+                "id": "l2",
+                "text": "33−3"
+              },
+              {
+                "id": "l3",
+                "text": "86−6"
+              },
+              {
+                "id": "l4",
+                "text": "74−4"
+              },
+              {
+                "id": "l5",
+                "text": "98−8"
+              }
+            ],
+            "right": [
+              {
+                "id": "r1",
+                "text": "70"
+              },
+              {
+                "id": "r2",
+                "text": "59"
+              },
+              {
+                "id": "r3",
+                "text": "30"
+              },
+              {
+                "id": "r4",
+                "text": "80"
+              },
+              {
+                "id": "r5",
+                "text": "90"
+              }
+            ],
+            "answer": [
+              [
+                "l1",
+                "r2"
+              ],
+              [
+                "l2",
+                "r3"
+              ],
+              [
+                "l3",
+                "r4"
+              ],
+              [
+                "l4",
+                "r1"
+              ],
+              [
+                "l5",
+                "r5"
+              ]
+            ],
+            "id": "d8-s2-q1"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "括号最大能填几",
+        "icon": "➕",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "20>7+( ) 最大",
+            "answer": 12,
+            "id": "d8-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "7+( )<19 最大",
+            "answer": 11,
+            "id": "d8-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "11−( )>2 最大",
+            "answer": 8,
+            "id": "d8-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )+9<15 最大",
+            "answer": 5,
+            "id": "d8-s3-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "20>( )+2 最大",
+            "answer": 17,
+            "id": "d8-s3-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "8<13−( ) 最大",
+            "answer": 4,
+            "id": "d8-s3-q6"
+          },
+          {
+            "type": "calc",
+            "prompt": "13>6+( ) 最大",
+            "answer": 6,
+            "id": "d8-s3-q7"
+          },
+          {
+            "type": "calc",
+            "prompt": "6+( )<18 最大",
+            "answer": 11,
+            "id": "d8-s3-q8"
+          },
+          {
+            "type": "calc",
+            "prompt": "8+( )<19 最大",
+            "answer": 10,
+            "id": "d8-s3-q9"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )+6<17 最大",
+            "answer": 10,
+            "id": "d8-s3-q10"
+          },
+          {
+            "type": "calc",
+            "prompt": "2<11−( ) 最大",
+            "answer": 8,
+            "id": "d8-s3-q11"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )+8<18 最大",
+            "answer": 9,
+            "id": "d8-s3-q12"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🍬",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "糖10元，付20元，找回？",
+            "answer": 10,
+            "id": "d8-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "3人吃3个馒头要3分钟。9人吃9个要几分钟？",
+            "answer": 3,
+            "id": "d8-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "title": "第 9 天 · 读写数",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d9-s1-q1",
+            "type": "calc",
+            "prompt": "48 + 44 =",
+            "answer": 92,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q2",
+            "type": "calc",
+            "prompt": "85 - 23 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q3",
+            "type": "calc",
+            "prompt": "17 + 68 =",
+            "answer": 85,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q4",
+            "type": "calc",
+            "prompt": "14 + 55 =",
+            "answer": 69,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q5",
+            "type": "calc",
+            "prompt": "91 - 74 =",
+            "answer": 17,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q6",
+            "type": "calc",
+            "prompt": "1 + 3 + 6 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q7",
+            "type": "calc",
+            "prompt": "39 + 17 =",
+            "answer": 56,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q8",
+            "type": "calc",
+            "prompt": "50 - 7 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q9",
+            "type": "calc",
+            "prompt": "36 - 11 =",
+            "answer": 25,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q10",
+            "type": "calc",
+            "prompt": "46 + 52 =",
+            "answer": 98,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q11",
+            "type": "calc",
+            "prompt": "21 + 74 =",
+            "answer": 95,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d9-s1-q12",
+            "type": "calc",
+            "prompt": "40 + 40 + 8 =",
+            "answer": 88,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "59：几个十、几个一、相邻两数（小的在前）",
+            "blanks": 4,
+            "answer": [
+              5,
+              9,
+              58,
+              60
+            ],
+            "accept": [
+              [
+                5,
+                9,
+                58,
+                60
+              ],
+              [
+                "5",
+                "9",
+                "58",
+                "60"
+              ]
+            ],
+            "id": "d9-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "四十九写作？",
+            "answer": 49,
+            "id": "d9-s2-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "87读作？（填汉字，如八十七）",
+            "answer": "八十七",
+            "accept": [
+              "八十七"
+            ],
+            "id": "d9-s2-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "（）个十和（）个一是49",
+            "blanks": 2,
+            "answer": [
+              4,
+              9
+            ],
+            "accept": [
+              [
+                4,
+                9
+              ],
+              [
+                "4",
+                "9"
+              ]
+            ],
+            "id": "d9-s2-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "100里面有几个十？",
+            "answer": 10,
+            "id": "d9-s2-q5"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "与59相邻的两个数",
+            "blanks": 2,
+            "answer": [
+              58,
+              60
+            ],
+            "accept": [
+              [
+                58,
+                60
+              ],
+              [
+                "58",
+                "60"
+              ]
+            ],
+            "id": "d9-s2-q6"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "看图列式",
+        "icon": "🎒",
+        "questions": [
+          {
+            "type": "expression",
+            "prompt": "书包31元+球拍18元，列式如31+18=49",
+            "answer": "31+18=49",
+            "accept": [
+              "31+18=49",
+              "18+31=49",
+              "49"
+            ],
+            "id": "d9-s3-q1"
+          },
+          {
+            "type": "expression",
+            "prompt": "拖鞋12元+围巾25元",
+            "answer": "12+25=37",
+            "accept": [
+              "12+25=37",
+              "25+12=37",
+              "37"
+            ],
+            "id": "d9-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📖",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "图书90本，借出40本，还剩？",
+            "answer": 50,
+            "id": "d9-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧦",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "4红4白袜子，至少摸几只保证同色一双？",
+            "answer": 3,
+            "id": "d9-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "title": "第 10 天 · 图形",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d10-s1-q1",
+            "type": "calc",
+            "prompt": "4 + 37 =",
+            "answer": 41,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q2",
+            "type": "calc",
+            "prompt": "29 + 4 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q3",
+            "type": "calc",
+            "prompt": "39 + 8 =",
+            "answer": 47,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q4",
+            "type": "calc",
+            "prompt": "26 + 7 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q5",
+            "type": "calc",
+            "prompt": "7 + 38 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q6",
+            "type": "calc",
+            "prompt": "31 + 2 - 4 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q7",
+            "type": "calc",
+            "prompt": "6 + 18 =",
+            "answer": 24,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q8",
+            "type": "calc",
+            "prompt": "40 + 6 =",
+            "answer": 46,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q9",
+            "type": "calc",
+            "prompt": "35 + 30 =",
+            "answer": 65,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q10",
+            "type": "calc",
+            "prompt": "32 + 8 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q11",
+            "type": "calc",
+            "prompt": "25 + 5 =",
+            "answer": 30,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d10-s1-q12",
+            "type": "calc",
+            "prompt": "20 - 8 + 4 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "我会填",
+        "icon": "📐",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "长方形、正方形、三角形各几条边",
+            "blanks": 3,
+            "answer": [
+              4,
+              4,
+              3
+            ],
+            "accept": [
+              [
+                4,
+                4,
+                3
+              ],
+              [
+                "4",
+                "4",
+                "3"
+              ]
+            ],
+            "id": "d10-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "摆长方形、三角形各需几根小棒",
+            "blanks": 2,
+            "answer": [
+              4,
+              3
+            ],
+            "accept": [
+              [
+                4,
+                3
+              ],
+              [
+                "4",
+                "3"
+              ]
+            ],
+            "id": "d10-s2-q2"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "硬币、红领巾、课桌面是什么形（圆/三角/长方）",
+            "blanks": 3,
+            "answer": [
+              "圆",
+              "三角",
+              "长方"
+            ],
+            "accept": [
+              [
+                "圆",
+                "三角",
+                "长方"
+              ],
+              [
+                "圆形",
+                "三角形",
+                "长方形"
+              ],
+              [
+                "圆",
+                "三角形",
+                "长方形"
+              ]
+            ],
+            "id": "d10-s2-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "长方形相对边（）；正方形四条边一样（）；平行四边形相对边（）",
+            "blanks": 3,
+            "answer": [
+              "相等",
+              "长",
+              "相等"
+            ],
+            "accept": [
+              [
+                "相等",
+                "长",
+                "相等"
+              ]
+            ],
+            "id": "d10-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "我会数",
+        "icon": "🔷",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "2×2方格中正方形个数（含大）",
+            "answer": 5,
+            "visual": "田字格",
+            "id": "d10-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "图中标出4个小平行四边形，它们还能拼成1个大平行四边形。只数这些图形，共几个？",
+            "answer": 5,
+            "id": "d10-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "正方形画两条对角线，三角形个数",
+            "answer": 8,
+            "id": "d10-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "一幅图中有4个小三角形，另外还能找出2个由小三角形组成的大三角形，共几个三角形？",
+            "answer": 6,
+            "id": "d10-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🌸",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "姐姐做32朵，比妹妹多8朵。两人一共？",
+            "answer": 56,
+            "id": "d10-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "1~7间加+使和为100。写出算式",
+            "answer": "1+23+4+5+67",
+            "accept": [
+              "1+23+4+5+67"
+            ],
+            "hint": "1+23+4+5+67=100",
+            "id": "d10-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "title": "第 11 天 · 钱币兑换",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d11-s1-q1",
+            "type": "calc",
+            "prompt": "64 - 20 =",
+            "answer": 44,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q2",
+            "type": "calc",
+            "prompt": "79 - 7 =",
+            "answer": 72,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q3",
+            "type": "calc",
+            "prompt": "75 - 30 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q4",
+            "type": "calc",
+            "prompt": "28 + 13 =",
+            "answer": 41,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q5",
+            "type": "calc",
+            "prompt": "53 - 46 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q6",
+            "type": "calc",
+            "prompt": "8 + 28 + 25 =",
+            "answer": 61,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q7",
+            "type": "calc",
+            "prompt": "53 + 38 =",
+            "answer": 91,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q8",
+            "type": "calc",
+            "prompt": "59 - 25 =",
+            "answer": 34,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q9",
+            "type": "calc",
+            "prompt": "47 - 19 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q10",
+            "type": "calc",
+            "prompt": "30 + 47 =",
+            "answer": 77,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q11",
+            "type": "calc",
+            "prompt": "20 + 6 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d11-s1-q12",
+            "type": "calc",
+            "prompt": "69 + 31 - 27 =",
+            "answer": 73,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "钱币兑换",
+        "icon": "💴",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "一张10元可换几张1元？",
+            "answer": 10,
+            "id": "d11-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "一张100元可换几张10元？",
+            "answer": 10,
+            "id": "d11-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "一张20元可换几张5元？",
+            "answer": 4,
+            "id": "d11-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "一张1元可换几张2角？（1元=5张2角）",
+            "answer": 5,
+            "id": "d11-s2-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "一张50元可换几张10元？",
+            "answer": 5,
+            "id": "d11-s2-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "一张5角可换几张1角？",
+            "answer": 5,
+            "id": "d11-s2-q6"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "单位转换",
+        "icon": "🔄",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "1元=（）角",
+            "answer": 10,
+            "id": "d11-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "3元9角=（）角",
+            "answer": 39,
+            "id": "d11-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "2角=（）分",
+            "answer": 20,
+            "id": "d11-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "4元=（）角",
+            "answer": 40,
+            "id": "d11-s3-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "1角=（）分",
+            "answer": 10,
+            "id": "d11-s3-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "5元7角=（）角",
+            "answer": 57,
+            "id": "d11-s3-q6"
+          },
+          {
+            "type": "calc",
+            "prompt": "1元5角=（）角",
+            "answer": 15,
+            "id": "d11-s3-q7"
+          },
+          {
+            "type": "calc",
+            "prompt": "100分=（）元",
+            "answer": 1,
+            "id": "d11-s3-q8"
+          },
+          {
+            "type": "calc",
+            "prompt": "7元=（）角",
+            "answer": 70,
+            "id": "d11-s3-q9"
+          },
+          {
+            "type": "calc",
+            "prompt": "30角=（）元",
+            "answer": 3,
+            "id": "d11-s3-q10"
+          },
+          {
+            "type": "calc",
+            "prompt": "2角5分=（）分",
+            "answer": 25,
+            "id": "d11-s3-q11"
+          },
+          {
+            "type": "calc",
+            "prompt": "3角3分=（）分",
+            "answer": 33,
+            "id": "d11-s3-q12"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🍇",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "葡萄18元苹果20元雪梨7元香蕉3元。苹果比香蕉贵多少元？",
+            "answer": 17,
+            "id": "d11-s4-q1"
+          },
+          {
+            "type": "word",
+            "prompt": "雪梨和香蕉一共多少元？",
+            "answer": 10,
+            "id": "d11-s4-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "苹果和葡萄一共多少元？",
+            "answer": 38,
+            "id": "d11-s4-q3"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "15、11、13、13、11、15、9、17、7、（）、（）、21、3",
+            "blanks": 2,
+            "answer": [
+              19,
+              5
+            ],
+            "accept": [
+              [
+                19,
+                5
+              ],
+              [
+                "19",
+                "5"
+              ]
+            ],
+            "id": "d11-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "title": "第 12 天 · 判断选择",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d12-s1-q1",
+            "type": "calc",
+            "prompt": "97 - 90 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q2",
+            "type": "calc",
+            "prompt": "4 + 50 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q3",
+            "type": "calc",
+            "prompt": "60 + 20 =",
+            "answer": 80,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q4",
+            "type": "calc",
+            "prompt": "65 - 1 =",
+            "answer": 64,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q5",
+            "type": "calc",
+            "prompt": "89 + 6 =",
+            "answer": 95,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q6",
+            "type": "calc",
+            "prompt": "16 + 5 + 9 =",
+            "answer": 30,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q7",
+            "type": "calc",
+            "prompt": "72 - 8 =",
+            "answer": 64,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q8",
+            "type": "calc",
+            "prompt": "54 - 6 =",
+            "answer": 48,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q9",
+            "type": "calc",
+            "prompt": "83 + 5 =",
+            "answer": 88,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q10",
+            "type": "calc",
+            "prompt": "76 + 8 =",
+            "answer": 84,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q11",
+            "type": "calc",
+            "prompt": "38 + 50 =",
+            "answer": 88,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d12-s1-q12",
+            "type": "calc",
+            "prompt": "17 - 1 - 2 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "判断正误",
+        "icon": "🔍",
+        "questions": [
+          {
+            "type": "true_false",
+            "prompt": "21瓶饮料分给10男10女2老师，不够每人一瓶。",
+            "answer": true,
+            "id": "d12-s2-q1"
+          },
+          {
+            "type": "true_false",
+            "prompt": "2张1元、2张5角、5张1角合起来是9元7角。",
+            "answer": false,
+            "hint": "实际3元5角",
+            "id": "d12-s2-q2"
+          },
+          {
+            "type": "true_false",
+            "prompt": "十位是6的两位数有10个。",
+            "answer": true,
+            "id": "d12-s2-q3"
+          },
+          {
+            "type": "true_false",
+            "prompt": "4□−5差是三十多时，□最大只能填3。",
+            "answer": false,
+            "hint": "最大可填4",
+            "id": "d12-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "精挑细选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "5和2可以直接相加的是",
+            "options": [
+              {
+                "label": "①32+5",
+                "value": 0
+              },
+              {
+                "label": "②32+50",
+                "value": 1
+              },
+              {
+                "label": "③23+5",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "id": "d12-s3-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "付20元还差3元2角，钟表多少钱？",
+            "options": [
+              {
+                "label": "①17元2角",
+                "value": 0
+              },
+              {
+                "label": "②23元2角",
+                "value": 1
+              },
+              {
+                "label": "③20元2角",
+                "value": 2
+              }
+            ],
+            "answer": 1,
+            "id": "d12-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🎨",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "红纸23张黄纸15张，送走14张，还剩？",
+            "answer": 24,
+            "id": "d12-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "妈妈32岁小敏6岁。6年后妈妈比小敏大几岁？",
+            "answer": 26,
+            "id": "d12-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "title": "第 13 天 · 括号与看图",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d13-s1-q1",
+            "type": "calc",
+            "prompt": "97 - 90 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q2",
+            "type": "calc",
+            "prompt": "15 + 50 =",
+            "answer": 65,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q3",
+            "type": "calc",
+            "prompt": "7 + 50 =",
+            "answer": 57,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q4",
+            "type": "calc",
+            "prompt": "3 - 2 =",
+            "answer": 1,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q5",
+            "type": "calc",
+            "prompt": "81 + 7 =",
+            "answer": 88,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q6",
+            "type": "calc",
+            "prompt": "52 + 3 + 7 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q7",
+            "type": "calc",
+            "prompt": "2 + 6 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q8",
+            "type": "calc",
+            "prompt": "12 + 4 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q9",
+            "type": "calc",
+            "prompt": "9 + 5 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q10",
+            "type": "calc",
+            "prompt": "68 + 2 =",
+            "answer": 70,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q11",
+            "type": "calc",
+            "prompt": "8 + 80 =",
+            "answer": 88,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d13-s1-q12",
+            "type": "calc",
+            "prompt": "98 - 5 - 4 =",
+            "answer": 89,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "括号填数",
+        "icon": "➕",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "36−7=( )",
+            "answer": 29,
+            "id": "d13-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )−9=24",
+            "answer": 33,
+            "id": "d13-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )+6=44",
+            "answer": 38,
+            "id": "d13-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )+7=67",
+            "answer": 60,
+            "id": "d13-s2-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "( )−9=65",
+            "answer": 74,
+            "id": "d13-s2-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "20+( )=76",
+            "answer": 56,
+            "id": "d13-s2-q6"
+          },
+          {
+            "type": "calc",
+            "prompt": "85−( )=5",
+            "answer": 80,
+            "id": "d13-s2-q7"
+          },
+          {
+            "type": "calc",
+            "prompt": "56−( )=50",
+            "answer": 6,
+            "id": "d13-s2-q8"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "看图列式",
+        "icon": "🧸",
+        "questions": [
+          {
+            "type": "expression",
+            "prompt": "玩具熊60元，羽毛笔7元，差多少？列式如60-7=53",
+            "answer": "60-7=53",
+            "accept": [
+              "60-7=53",
+              "53"
+            ],
+            "id": "d13-s3-q1"
+          },
+          {
+            "type": "expression",
+            "prompt": "篮子桃子+堆桃子=46，堆上有6个，篮里？列式",
+            "answer": "46-6=40",
+            "accept": [
+              "46-6=40",
+              "40",
+              "6+40=46"
+            ],
+            "id": "d13-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📖",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "昨天看8页今天看9页，两天共看多少页？",
+            "answer": 17,
+            "id": "d13-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "排队：小平左4人右8人，这一行共几人？",
+            "answer": 13,
+            "id": "d13-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "title": "第 14 天 · 数形与求和",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d14-s1-q1",
+            "type": "calc",
+            "prompt": "10 + 1 =",
+            "answer": 11,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q2",
+            "type": "calc",
+            "prompt": "50 - 50 =",
+            "answer": 0,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q3",
+            "type": "calc",
+            "prompt": "12 + 50 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q4",
+            "type": "calc",
+            "prompt": "70 - 3 =",
+            "answer": 67,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q5",
+            "type": "calc",
+            "prompt": "17 + 3 =",
+            "answer": 20,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q6",
+            "type": "calc",
+            "prompt": "37 + 1 + 8 =",
+            "answer": 46,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q7",
+            "type": "calc",
+            "prompt": "56 - 1 =",
+            "answer": 55,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q8",
+            "type": "calc",
+            "prompt": "66 + 3 =",
+            "answer": 69,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q9",
+            "type": "calc",
+            "prompt": "4 + 9 =",
+            "answer": 13,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q10",
+            "type": "calc",
+            "prompt": "55 + 1 =",
+            "answer": 56,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q11",
+            "type": "calc",
+            "prompt": "14 + 40 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d14-s1-q12",
+            "type": "calc",
+            "prompt": "53 - 6 - 3 =",
+            "answer": 44,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "数一数",
+        "icon": "🔺",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "一幅图中可数出6个小三角形和4个由小三角形组成的大三角形，共几个三角形？",
+            "answer": 10,
+            "id": "d14-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "一个大三角形被分割后，可数出5个小三角形和3个较大的三角形，共几个三角形？",
+            "answer": 8,
+            "id": "d14-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "照样子填",
+        "icon": "🔗",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "15与7下面相连是22（相加）。30与1相连填？",
+            "answer": 31,
+            "id": "d14-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "62与9相连填？",
+            "answer": 71,
+            "id": "d14-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "55与3相连填？",
+            "answer": 58,
+            "id": "d14-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "1与62相连？",
+            "answer": 63,
+            "id": "d14-s3-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "9与55相连？",
+            "answer": 64,
+            "id": "d14-s3-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "3与88相连？",
+            "answer": 91,
+            "id": "d14-s3-q6"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "按相加规律：7+30、30+1、1+62、62+9、9+55、55+3、3+88 的结果依次（写前3个）",
+            "blanks": 3,
+            "answer": [
+              37,
+              31,
+              63
+            ],
+            "accept": [
+              [
+                37,
+                31,
+                63
+              ],
+              [
+                "37",
+                "31",
+                "63"
+              ]
+            ],
+            "id": "d14-s3-q7"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🎁",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "三个玩具共100元，一个25元，其他两样一共？",
+            "answer": 75,
+            "id": "d14-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "下面哪一个等式成立？",
+            "options": [
+              {
+                "label": "①0+6=3+3",
+                "value": 0
+              },
+              {
+                "label": "②1+6=8+1",
+                "value": 1
+              },
+              {
+                "label": "③8-6=5+3",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "hint": "等号左右两边的得数要相同",
+            "id": "d14-s5-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "1+6的和是？",
+            "answer": 7,
+            "id": "d14-s5-q2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "title": "第 15 天 · 读写与填空",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d15-s1-q1",
+            "type": "calc",
+            "prompt": "60 + 4 =",
+            "answer": 64,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q2",
+            "type": "calc",
+            "prompt": "83 - 50 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q3",
+            "type": "calc",
+            "prompt": "22 + 60 =",
+            "answer": 82,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q4",
+            "type": "calc",
+            "prompt": "20 - 6 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q5",
+            "type": "calc",
+            "prompt": "46 + 7 =",
+            "answer": 53,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q6",
+            "type": "calc",
+            "prompt": "12 + 2 + 7 =",
+            "answer": 21,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q7",
+            "type": "calc",
+            "prompt": "20 - 1 =",
+            "answer": 19,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q8",
+            "type": "calc",
+            "prompt": "80 + 6 =",
+            "answer": 86,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q9",
+            "type": "calc",
+            "prompt": "47 + 6 =",
+            "answer": 53,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q10",
+            "type": "calc",
+            "prompt": "41 + 2 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q11",
+            "type": "calc",
+            "prompt": "6 + 10 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d15-s1-q12",
+            "type": "calc",
+            "prompt": "55 - 7 - 8 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "写一写读一读",
+        "icon": "🧮",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "2个百+1个十+5个一，写作（）读作（）",
+            "blanks": 2,
+            "answer": [
+              215,
+              "二百一十五"
+            ],
+            "accept": [
+              [
+                215,
+                "二百一十五"
+              ],
+              [
+                "215",
+                "二百一十五"
+              ]
+            ],
+            "id": "d15-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "7个十和8个一写作？",
+            "answer": 78,
+            "id": "d15-s2-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "78读作？",
+            "answer": "七十八",
+            "accept": [
+              "七十八"
+            ],
+            "id": "d15-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "计数器：百位1、十位0、个位3写作？",
+            "answer": 103,
+            "id": "d15-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "个位6，十位比个位多3。这个数（），读作（）",
+            "blanks": 2,
+            "answer": [
+              96,
+              "九十六"
+            ],
+            "accept": [
+              [
+                96,
+                "九十六"
+              ],
+              [
+                "96",
+                "九十六"
+              ]
+            ],
+            "id": "d15-s3-q1"
+          },
+          {
+            "type": "word",
+            "prompt": "32−□>27，□可填哪些一位数？从小到大逗号分隔",
+            "answer": "1,2,3,4",
+            "accept": [
+              "1,2,3,4",
+              "1，2，3，4"
+            ],
+            "id": "d15-s3-q2"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "88左边8在（）位表示（）个（）；右边8在（）位表示（）个（）",
+            "blanks": 6,
+            "answer": [
+              "十",
+              8,
+              "十",
+              "个",
+              8,
+              "一"
+            ],
+            "accept": [
+              [
+                "十",
+                8,
+                "十",
+                "个",
+                8,
+                "一"
+              ],
+              [
+                "十",
+                "8",
+                "十",
+                "个",
+                "8",
+                "一"
+              ]
+            ],
+            "id": "d15-s3-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "3个一和7个十组成的数是（），读作（）",
+            "blanks": 2,
+            "answer": [
+              73,
+              "七十三"
+            ],
+            "accept": [
+              [
+                73,
+                "七十三"
+              ],
+              [
+                "73",
+                "七十三"
+              ]
+            ],
+            "id": "d15-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "⚽",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小明买9个足球8个篮球，送小红5个足球，小红送小明6个篮球。小明有几个足球？",
+            "answer": 4,
+            "id": "d15-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "魔圈每线三数和75，中心应填？（5~45的9个数）",
+            "answer": 25,
+            "hint": "中心常为25",
+            "id": "d15-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "title": "第 16 天 · 算理",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d16-s1-q1",
+            "type": "calc",
+            "prompt": "50 - 3 =",
+            "answer": 47,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q2",
+            "type": "calc",
+            "prompt": "18 + 5 =",
+            "answer": 23,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q3",
+            "type": "calc",
+            "prompt": "4 + 70 =",
+            "answer": 74,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q4",
+            "type": "calc",
+            "prompt": "79 - 6 =",
+            "answer": 73,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q5",
+            "type": "calc",
+            "prompt": "41 + 1 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q6",
+            "type": "calc",
+            "prompt": "38 + 1 + 1 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q7",
+            "type": "calc",
+            "prompt": "16 + 2 =",
+            "answer": 18,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q8",
+            "type": "calc",
+            "prompt": "62 - 60 =",
+            "answer": 2,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q9",
+            "type": "calc",
+            "prompt": "66 + 8 =",
+            "answer": 74,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q10",
+            "type": "calc",
+            "prompt": "83 + 2 =",
+            "answer": 85,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q11",
+            "type": "calc",
+            "prompt": "14 + 50 =",
+            "answer": 64,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d16-s1-q12",
+            "type": "calc",
+            "prompt": "75 - 2 - 8 =",
+            "answer": 65,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "算理再现",
+        "icon": "➕",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "27+4=？",
+            "answer": 31,
+            "id": "d16-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "27+4：先算7+4=（），再算20+（）=（）",
+            "blanks": 3,
+            "answer": [
+              11,
+              11,
+              31
+            ],
+            "accept": [
+              [
+                11,
+                11,
+                31
+              ],
+              [
+                "11",
+                "11",
+                "31"
+              ]
+            ],
+            "id": "d16-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "36+7=？",
+            "answer": 43,
+            "id": "d16-s2-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "36+7：先算6+7=（），再算30+（）=（）",
+            "blanks": 3,
+            "answer": [
+              13,
+              13,
+              43
+            ],
+            "accept": [
+              [
+                13,
+                13,
+                43
+              ],
+              [
+                "13",
+                "13",
+                "43"
+              ]
+            ],
+            "id": "d16-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "精挑细选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "3人各摘7个苹果，一共？",
+            "options": [
+              {
+                "label": "①10",
+                "value": 0
+              },
+              {
+                "label": "②18",
+                "value": 1
+              },
+              {
+                "label": "③21",
+                "value": 2
+              }
+            ],
+            "answer": 2,
+            "id": "d16-s3-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "在十位和个位计数器上共摆9个珠子。下面哪个数不可能摆出？",
+            "options": [
+              {
+                "label": "①18岁",
+                "value": 0
+              },
+              {
+                "label": "②35岁",
+                "value": 1
+              },
+              {
+                "label": "③63岁",
+                "value": 2
+              }
+            ],
+            "answer": 1,
+            "id": "d16-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📚",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "故事书84本，借出40，还回9，现在？",
+            "answer": 53,
+            "id": "d16-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "吃掉10个，剩下比吃掉少1个，一共？",
+            "answer": 19,
+            "id": "d16-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "title": "第 17 天 · 比较与火车",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d17-s1-q1",
+            "type": "calc",
+            "prompt": "58 + 1 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q2",
+            "type": "calc",
+            "prompt": "90 - 80 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q3",
+            "type": "calc",
+            "prompt": "5 + 90 =",
+            "answer": 95,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q4",
+            "type": "calc",
+            "prompt": "78 - 8 =",
+            "answer": 70,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q5",
+            "type": "calc",
+            "prompt": "4 + 8 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q6",
+            "type": "calc",
+            "prompt": "62 + 4 + 8 =",
+            "answer": 74,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q7",
+            "type": "calc",
+            "prompt": "86 - 50 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q8",
+            "type": "calc",
+            "prompt": "3 + 60 =",
+            "answer": 63,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q9",
+            "type": "calc",
+            "prompt": "16 + 7 =",
+            "answer": 23,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q10",
+            "type": "calc",
+            "prompt": "32 + 1 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q11",
+            "type": "calc",
+            "prompt": "10 + 80 =",
+            "answer": 90,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d17-s1-q12",
+            "type": "calc",
+            "prompt": "44 - 3 - 7 =",
+            "answer": 34,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "比大小",
+        "icon": "⚖️",
+        "questions": [
+          {
+            "type": "compare",
+            "prompt": "5角 ○ 49分",
+            "answer": ">",
+            "id": "d17-s2-q1"
+          },
+          {
+            "type": "compare",
+            "prompt": "5元5角 ○ 5元6分",
+            "answer": ">",
+            "id": "d17-s2-q2"
+          },
+          {
+            "type": "compare",
+            "prompt": "8元 ○ 40角",
+            "answer": ">",
+            "id": "d17-s2-q3"
+          },
+          {
+            "type": "compare",
+            "prompt": "1元5角 ○ 150分",
+            "answer": "=",
+            "id": "d17-s2-q4"
+          },
+          {
+            "type": "compare",
+            "prompt": "3角5分 ○ 38分",
+            "answer": "<",
+            "id": "d17-s2-q5"
+          },
+          {
+            "type": "compare",
+            "prompt": "4元 ○ 41角",
+            "answer": "<",
+            "id": "d17-s2-q6"
+          },
+          {
+            "type": "compare",
+            "prompt": "2元2角 ○ 2元2分",
+            "answer": ">",
+            "id": "d17-s2-q7"
+          },
+          {
+            "type": "compare",
+            "prompt": "36角 ○ 3元6分",
+            "answer": ">",
+            "id": "d17-s2-q8"
+          },
+          {
+            "type": "compare",
+            "prompt": "100分 ○ 10角",
+            "answer": "=",
+            "id": "d17-s2-q9"
+          },
+          {
+            "type": "compare",
+            "prompt": "16分 ○ 1角7分",
+            "answer": "<",
+            "id": "d17-s2-q10"
+          },
+          {
+            "type": "compare",
+            "prompt": "4元5角 ○ 54角",
+            "answer": "<",
+            "id": "d17-s2-q11"
+          },
+          {
+            "type": "compare",
+            "prompt": "9角 ○ 90角",
+            "answer": "<",
+            "id": "d17-s2-q12"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "开火车",
+        "icon": "🚂",
+        "questions": [
+          {
+            "type": "chain",
+            "prompt": "从63出发",
+            "start": 63,
+            "ops": [
+              "-20",
+              "-9",
+              "+8",
+              "+40",
+              "-5"
+            ],
+            "answer": [
+              43,
+              34,
+              42,
+              82,
+              77
+            ],
+            "id": "d17-s3-q1"
+          },
+          {
+            "type": "chain",
+            "prompt": "从78出发",
+            "start": 78,
+            "ops": [
+              "+4",
+              "-6",
+              "-20",
+              "+8",
+              "-9"
+            ],
+            "answer": [
+              82,
+              76,
+              56,
+              64,
+              55
+            ],
+            "id": "d17-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "表格填数",
+        "icon": "📋",
+        "questions": [
+          {
+            "type": "table",
+            "prompt": "填：苹果原有43买入8；桃子原有50现在83；西瓜买入9现在70",
+            "headers": [
+              "",
+              "原有",
+              "买入",
+              "现在"
+            ],
+            "rows": [
+              [
+                "苹果",
+                "43",
+                "8",
+                "?"
+              ],
+              [
+                "桃子",
+                "50",
+                "?",
+                "83"
+              ],
+              [
+                "西瓜",
+                "?",
+                "9",
+                "70"
+              ]
+            ],
+            "answer": [
+              51,
+              33,
+              61
+            ],
+            "id": "d17-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🃏",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "四人一起玩扑克40分钟，每人玩了几分钟？",
+            "answer": 40,
+            "id": "d17-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "title": "第 18 天 · 组成与连线",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d18-s1-q1",
+            "type": "calc",
+            "prompt": "96 - 90 =",
+            "answer": 6,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q2",
+            "type": "calc",
+            "prompt": "9 + 10 =",
+            "answer": 19,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q3",
+            "type": "calc",
+            "prompt": "10 + 60 =",
+            "answer": 70,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q4",
+            "type": "calc",
+            "prompt": "5 - 3 =",
+            "answer": 2,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q5",
+            "type": "calc",
+            "prompt": "51 + 3 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q6",
+            "type": "calc",
+            "prompt": "53 + 6 + 3 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q7",
+            "type": "calc",
+            "prompt": "99 - 5 =",
+            "answer": 94,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q8",
+            "type": "calc",
+            "prompt": "31 + 5 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q9",
+            "type": "calc",
+            "prompt": "14 + 7 =",
+            "answer": 21,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q10",
+            "type": "calc",
+            "prompt": "68 + 3 =",
+            "answer": 71,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q11",
+            "type": "calc",
+            "prompt": "14 + 70 =",
+            "answer": 84,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d18-s1-q12",
+            "type": "calc",
+            "prompt": "67 - 5 - 1 =",
+            "answer": 61,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填一填",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "3个一和8个十组成（），再添7个一是（）个十",
+            "blanks": 2,
+            "answer": [
+              83,
+              9
+            ],
+            "accept": [
+              [
+                83,
+                9
+              ],
+              [
+                "83",
+                "9"
+              ]
+            ],
+            "hint": "83+7=90=9个十",
+            "id": "d18-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "个位0十位5的数是（），相邻两数（）（）",
+            "blanks": 3,
+            "answer": [
+              50,
+              49,
+              51
+            ],
+            "accept": [
+              [
+                50,
+                49,
+                51
+              ],
+              [
+                "50",
+                "49",
+                "51"
+              ]
+            ],
+            "id": "d18-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "连一连",
+        "icon": "🐜",
+        "questions": [
+          {
+            "type": "match",
+            "prompt": "算式连结果",
+            "left": [
+              {
+                "id": "l1",
+                "text": "29−(4+5)"
+              },
+              {
+                "id": "l2",
+                "text": "13+(27+3)"
+              },
+              {
+                "id": "l3",
+                "text": "68−(90−40)"
+              },
+              {
+                "id": "l4",
+                "text": "43−(10−3)"
+              }
+            ],
+            "right": [
+              {
+                "id": "r1",
+                "text": "18"
+              },
+              {
+                "id": "r2",
+                "text": "43"
+              },
+              {
+                "id": "r3",
+                "text": "20"
+              },
+              {
+                "id": "r4",
+                "text": "36"
+              }
+            ],
+            "answer": [
+              [
+                "l1",
+                "r3"
+              ],
+              [
+                "l2",
+                "r2"
+              ],
+              [
+                "l3",
+                "r1"
+              ],
+              [
+                "l4",
+                "r4"
+              ]
+            ],
+            "id": "d18-s3-q1"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "用2、3、4、5、6、7各一次填三角形的6个位置，每边三个数的和都是12。已知底边左右顶角分别是3和4，顶部顶角填几？",
+            "answer": 2,
+            "accept": [
+              2
+            ],
+            "hint": "顶部填2时，另外三个位置可填7、6、5，每边的和都是12",
+            "id": "d18-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "应用题",
+        "icon": "👩‍🏫",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "男老师12人，女老师比男老师多30人，女老师？",
+            "answer": 42,
+            "id": "d18-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "title": "第 19 天 · 规律连线",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d19-s1-q1",
+            "type": "calc",
+            "prompt": "90 - 90 =",
+            "answer": 0,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q2",
+            "type": "calc",
+            "prompt": "77 + 20 =",
+            "answer": 97,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q3",
+            "type": "calc",
+            "prompt": "4 + 30 =",
+            "answer": 34,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q4",
+            "type": "calc",
+            "prompt": "59 - 9 =",
+            "answer": 50,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q5",
+            "type": "calc",
+            "prompt": "31 + 9 =",
+            "answer": 40,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q6",
+            "type": "calc",
+            "prompt": "55 + 3 + 6 =",
+            "answer": 64,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q7",
+            "type": "calc",
+            "prompt": "4 + 6 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q8",
+            "type": "calc",
+            "prompt": "62 - 50 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q9",
+            "type": "calc",
+            "prompt": "38 + 7 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q10",
+            "type": "calc",
+            "prompt": "42 + 8 =",
+            "answer": 50,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q11",
+            "type": "calc",
+            "prompt": "71 + 10 =",
+            "answer": 81,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d19-s1-q12",
+            "type": "calc",
+            "prompt": "54 - 5 - 2 =",
+            "answer": 47,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "找规律填数",
+        "icon": "🌸",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "花心38，花瓣35与3：规律38=35+3。另一朵20与26，花心？",
+            "answer": 46,
+            "hint": "20+26",
+            "id": "d19-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "花瓣36与2，花心？",
+            "answer": 38,
+            "id": "d19-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "花瓣30与41，花心？",
+            "answer": 71,
+            "id": "d19-s2-q3"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "连一连·算得数",
+        "icon": "🦊",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "15−8=？",
+            "answer": 7,
+            "id": "d19-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "15−6=？",
+            "answer": 9,
+            "id": "d19-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "11−3=？",
+            "answer": 8,
+            "id": "d19-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "14−8=？",
+            "answer": 6,
+            "id": "d19-s3-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "13−6=？",
+            "answer": 7,
+            "id": "d19-s3-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "11−5=？",
+            "answer": 6,
+            "id": "d19-s3-q6"
+          },
+          {
+            "type": "calc",
+            "prompt": "17−8=？",
+            "answer": 9,
+            "id": "d19-s3-q7"
+          },
+          {
+            "type": "calc",
+            "prompt": "12−4=？",
+            "answer": 8,
+            "id": "d19-s3-q8"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🦆",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "鸭20鹅8鸡45。鹅比鸭少多少？",
+            "answer": 12,
+            "id": "d19-s4-q1"
+          },
+          {
+            "type": "word",
+            "prompt": "鸡比鸭多多少？",
+            "answer": 25,
+            "id": "d19-s4-q2"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "个位数右边加0成两位数，比原数大36，原个位数？",
+            "answer": 4,
+            "hint": "10a-a=9a=36,a=4",
+            "id": "d19-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "title": "第 20 天 · 变换与看图",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d20-s1-q1",
+            "type": "calc",
+            "prompt": "65 - 4 =",
+            "answer": 61,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q2",
+            "type": "calc",
+            "prompt": "76 - 2 =",
+            "answer": 74,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q3",
+            "type": "calc",
+            "prompt": "55 + 20 =",
+            "answer": 75,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q4",
+            "type": "calc",
+            "prompt": "16 - 5 =",
+            "answer": 11,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q5",
+            "type": "calc",
+            "prompt": "28 + 8 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q6",
+            "type": "calc",
+            "prompt": "93 + 2 + 5 =",
+            "answer": 100,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q7",
+            "type": "calc",
+            "prompt": "74 - 7 =",
+            "answer": 67,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q8",
+            "type": "calc",
+            "prompt": "40 - 10 =",
+            "answer": 30,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q9",
+            "type": "calc",
+            "prompt": "40 + 6 =",
+            "answer": 46,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q10",
+            "type": "calc",
+            "prompt": "32 + 7 =",
+            "answer": 39,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q11",
+            "type": "calc",
+            "prompt": "20 + 80 =",
+            "answer": 100,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d20-s1-q12",
+            "type": "calc",
+            "prompt": "74 - 9 - 3 =",
+            "answer": 62,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填一填",
+        "icon": "📦",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "32、43、54都+20",
+            "blanks": 3,
+            "answer": [
+              52,
+              63,
+              74
+            ],
+            "accept": [
+              [
+                52,
+                63,
+                74
+              ],
+              [
+                "52",
+                "63",
+                "74"
+              ]
+            ],
+            "id": "d20-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "20、40、60都+23",
+            "blanks": 3,
+            "answer": [
+              43,
+              63,
+              83
+            ],
+            "accept": [
+              [
+                43,
+                63,
+                83
+              ],
+              [
+                "43",
+                "63",
+                "83"
+              ]
+            ],
+            "id": "d20-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "看图写算式",
+        "icon": "🖼️",
+        "questions": [
+          {
+            "type": "expression",
+            "prompt": "两盒书一边27本，若一样多一共？列式",
+            "answer": "27+27=54",
+            "accept": [
+              "27+27=54",
+              "54",
+              "27×2=54"
+            ],
+            "id": "d20-s3-q1"
+          },
+          {
+            "type": "expression",
+            "prompt": "一共12朵，外面3朵，篮里？",
+            "answer": "12-3=9",
+            "accept": [
+              "12-3=9",
+              "9",
+              "3+9=12"
+            ],
+            "id": "d20-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📕",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "字典8元，付20元，找回？",
+            "answer": 12,
+            "id": "d20-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "1+2+…+10=？",
+            "answer": 55,
+            "id": "d20-s5-q1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "title": "第 21 天 · 未知数与选择",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d21-s1-q1",
+            "type": "calc",
+            "prompt": "12 - 4 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q2",
+            "type": "calc",
+            "prompt": "14 - 6 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q3",
+            "type": "calc",
+            "prompt": "50 + 8 =",
+            "answer": 58,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q4",
+            "type": "calc",
+            "prompt": "13 - 7 + 6 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q5",
+            "type": "calc",
+            "prompt": "13 - 5 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q6",
+            "type": "calc",
+            "prompt": "6 + 30 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q7",
+            "type": "calc",
+            "prompt": "30 + 70 =",
+            "answer": 100,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q8",
+            "type": "calc",
+            "prompt": "14 - 7 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d21-s1-q9",
+            "type": "calc",
+            "prompt": "81 - 30 - 7 =",
+            "answer": 44,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填未知数",
+        "icon": "❓",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "5+□=14，□=？",
+            "answer": 9,
+            "id": "d21-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "9+□=15，□=？",
+            "answer": 6,
+            "id": "d21-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "12-4=？",
+            "answer": 8,
+            "id": "d21-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "12-4=？（再算一次）",
+            "answer": 8,
+            "id": "d21-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "折一折",
+        "icon": "📦",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "一个正方体的相对面分别是“□和长方形”“△和圆”“星和月亮”。□的对面是什么形状？",
+            "answer": "长方",
+            "accept": [
+              "长方",
+              "长方形",
+              "矩形"
+            ],
+            "id": "d21-s3-q1"
+          },
+          {
+            "type": "word",
+            "prompt": "同一个正方体中，△和圆位于相对面。△的对面是什么形状？",
+            "answer": "圆",
+            "accept": [
+              "圆",
+              "圆形",
+              "○"
+            ],
+            "id": "d21-s3-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "同一个正方体中，△和圆位于相对面。圆的对面是什么形状？",
+            "answer": "三角",
+            "accept": [
+              "三角",
+              "三角形",
+              "△"
+            ],
+            "id": "d21-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "我会选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "4根同样长小棒能摆成",
+            "options": [
+              {
+                "label": "①正方形",
+                "value": 0
+              },
+              {
+                "label": "②长方形",
+                "value": 1
+              },
+              {
+                "label": "③三角形",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "id": "d21-s4-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "56减一位数，差的十位不可能是",
+            "options": [
+              {
+                "label": "①3",
+                "value": 0
+              },
+              {
+                "label": "②4",
+                "value": 1
+              },
+              {
+                "label": "③5",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "id": "d21-s4-q2"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "应用题",
+        "icon": "⭐",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "3人各折7颗小星，一共？",
+            "answer": 21,
+            "id": "d21-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "name": "思维题",
+        "icon": "📖",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "同一本书，小勇看20页小洁看28页。谁剩的多？多几页？写成：小勇,8",
+            "answer": "小勇,8",
+            "accept": [
+              "小勇,8",
+              "小勇，8",
+              "小勇 8"
+            ],
+            "id": "d21-s6-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d21-app-boost-1",
+            "type": "word",
+            "prompt": "小明有 28 颗糖，吃了 9 颗，还剩几颗？",
+            "answer": 19,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d21-app-boost-2",
+            "type": "word",
+            "prompt": "一排有 12 人，又来了 15 人，一共多少人？",
+            "answer": 27,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d21-app-boost-3",
+            "type": "word",
+            "prompt": "妈妈买了 3 盒铅笔，每盒 8 支，一共几支？",
+            "answer": 24,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d21-app-boost-4",
+            "type": "word",
+            "prompt": "书架上有 45 本书，借走 18 本，还剩几本？",
+            "answer": 27,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d21-app-boost-5",
+            "type": "word",
+            "prompt": "小红有 36 元，买本子花了 15 元，还剩多少元？",
+            "answer": 21,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "title": "第 22 天 · 水果方程",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d22-s1-q1",
+            "type": "calc",
+            "prompt": "12 - 5 + 7 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q2",
+            "type": "calc",
+            "prompt": "14 - 5 + 9 =",
+            "answer": 18,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q3",
+            "type": "calc",
+            "prompt": "13 - 7 + 6 =",
+            "answer": 12,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q4",
+            "type": "calc",
+            "prompt": "12 - 4 + 8 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q5",
+            "type": "calc",
+            "prompt": "15 - 8 + 9 =",
+            "answer": 16,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q6",
+            "type": "calc",
+            "prompt": "14 - 7 + 6 =",
+            "answer": 13,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q7",
+            "type": "calc",
+            "prompt": "11 - 6 + 5 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q8",
+            "type": "calc",
+            "prompt": "14 - 7 + 6 =",
+            "answer": 13,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q9",
+            "type": "calc",
+            "prompt": "11 - 2 + 8 =",
+            "answer": 17,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d22-s1-q10",
+            "type": "calc",
+            "prompt": "13 - 5 + 9 =",
+            "answer": 17,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "个位9十位5的两位数是？",
+            "answer": 59,
+            "id": "d22-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "78有（）个一和（）个十；（）个十是100",
+            "blanks": 3,
+            "answer": [
+              8,
+              7,
+              10
+            ],
+            "accept": [
+              [
+                8,
+                7,
+                10
+              ],
+              [
+                "8",
+                "7",
+                "10"
+              ]
+            ],
+            "id": "d22-s2-q2"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "8比85少（）；36比20多（）",
+            "blanks": 2,
+            "answer": [
+              77,
+              16
+            ],
+            "accept": [
+              [
+                77,
+                16
+              ],
+              [
+                "77",
+                "16"
+              ]
+            ],
+            "id": "d22-s2-q3"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "想一想",
+        "icon": "🍎",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "苹果−20=10，苹果=？",
+            "answer": 30,
+            "id": "d22-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "桃子−10=30，桃子=？",
+            "answer": 40,
+            "id": "d22-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "苹果+桃子+梨=80，梨=？",
+            "answer": 10,
+            "hint": "30+40+梨=80",
+            "id": "d22-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🌸",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小明种5棵，小华小红各与小明同样多。一共？",
+            "answer": 15,
+            "id": "d22-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🍌",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "10人中7人爱香蕉5人爱苹果，既爱香蕉又爱苹果至少几人？",
+            "answer": 2,
+            "hint": "7+5-10=2",
+            "id": "d22-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d22-app-boost-1",
+            "type": "word",
+            "prompt": "公交车上有 35 人，下车 12 人，还剩几人？",
+            "answer": 23,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d22-app-boost-2",
+            "type": "word",
+            "prompt": "小明身高 128 厘米，比爸爸矮 45 厘米，爸爸身高多少厘米？",
+            "answer": 173,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d22-app-boost-3",
+            "type": "word",
+            "prompt": "一本书 42 页，已经看了 19 页，还剩几页？",
+            "answer": 23,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d22-app-boost-4",
+            "type": "word",
+            "prompt": "笼子里有 8 只鸡，又放进 7 只，一共几只？",
+            "answer": 15,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d22-app-boost-5",
+            "type": "word",
+            "prompt": "商店原有 60 个面包，上午卖出 24 个，下午卖出 18 个，还剩几个？",
+            "answer": 18,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d22-app-boost-6",
+            "type": "word",
+            "prompt": "小丽有 2 角，又得到 5 角，一共多少角？",
+            "answer": 7,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "title": "第 23 天 · 判断连线",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d23-s1-q1",
+            "type": "calc",
+            "prompt": "30 + 8 - 10 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q2",
+            "type": "calc",
+            "prompt": "50 - 20 + 14 =",
+            "answer": 44,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q3",
+            "type": "calc",
+            "prompt": "15 - 9 - 3 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q4",
+            "type": "calc",
+            "prompt": "9 + 7 - 8 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q5",
+            "type": "calc",
+            "prompt": "14 - 7 + 8 =",
+            "answer": 15,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q6",
+            "type": "calc",
+            "prompt": "10 - 5 + 5 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q7",
+            "type": "calc",
+            "prompt": "12 + 5 + 9 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q8",
+            "type": "calc",
+            "prompt": "70 - 20 + 9 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q9",
+            "type": "calc",
+            "prompt": "90 + 7 - 60 =",
+            "answer": 37,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d23-s1-q10",
+            "type": "calc",
+            "prompt": "10 + 2 - 3 =",
+            "answer": 9,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "判断",
+        "icon": "🔍",
+        "questions": [
+          {
+            "type": "true_false",
+            "prompt": "读写两位数都要从个位起。",
+            "answer": false,
+            "id": "d23-s2-q1"
+          },
+          {
+            "type": "true_false",
+            "prompt": "至少4个相同小正方形才能拼成一个大正方形。",
+            "answer": true,
+            "id": "d23-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "6颗珠子在十位个位计数器上能摆出几个不同数？（0-6珠）",
+            "answer": 7,
+            "hint": "60,51,42,33,24,15,06等",
+            "id": "d23-s2-q3"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "我会选·连线结果",
+        "icon": "🐝",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "73+5=？",
+            "answer": 78,
+            "id": "d23-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "23+6=？",
+            "answer": 29,
+            "id": "d23-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "12+7=？",
+            "answer": 19,
+            "id": "d23-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "29+30=？",
+            "answer": 59,
+            "id": "d23-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🍎",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "96个苹果上午卖26下午卖39，还剩？",
+            "answer": 31,
+            "id": "d23-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🦆",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "正着数第6倒着数第7，一共几只鸭？",
+            "answer": 12,
+            "hint": "6+7-1",
+            "id": "d23-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d23-app-boost-1",
+            "type": "word",
+            "prompt": "鱼缸里有 16 条金鱼，死了 3 条，又买来 5 条，现在有几条？",
+            "answer": 18,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-2",
+            "type": "word",
+            "prompt": "小军有 50 张贴纸，送给同学 17 张，还剩几张？",
+            "answer": 33,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-3",
+            "type": "word",
+            "prompt": "一条绳子长 90 厘米，剪去 35 厘米，还剩多少厘米？",
+            "answer": 55,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-4",
+            "type": "word",
+            "prompt": "停车场原有 28 辆车，开走 9 辆，又开来 6 辆，现在有几辆？",
+            "answer": 25,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-5",
+            "type": "word",
+            "prompt": "一打铅笔是 12 支，两打是多少支？",
+            "answer": 24,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-6",
+            "type": "word",
+            "prompt": "小华去学校 15 分钟，回来 15 分钟，一共走了多少分钟？",
+            "answer": 30,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-7",
+            "type": "word",
+            "prompt": "教室里有 6 排桌子，每排 5 张，一共多少张？",
+            "answer": 30,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-8",
+            "type": "word",
+            "prompt": "妈妈买菜花了 28 元，付了 50 元，应找回多少元？",
+            "answer": 22,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-9",
+            "type": "word",
+            "prompt": "树上有 40 只鸟，飞走 13 只，又飞来 8 只，现在有几只？",
+            "answer": 35,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-10",
+            "type": "word",
+            "prompt": "一箱牛奶 24 盒，喝了 9 盒，还剩几盒？",
+            "answer": 15,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-11",
+            "type": "word",
+            "prompt": "鱼缸里有 16 条金鱼，死了 3 条，又买来 5 条，现在有几条？（练11）",
+            "answer": 18,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d23-app-boost-12",
+            "type": "word",
+            "prompt": "小军有 50 张贴纸，送给同学 17 张，还剩几张？（练12）",
+            "answer": 33,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "title": "第 24 天 · 图形选择",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d24-s1-q1",
+            "type": "calc",
+            "prompt": "68 - 40 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q2",
+            "type": "calc",
+            "prompt": "93 - 20 =",
+            "answer": 73,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q3",
+            "type": "calc",
+            "prompt": "39 - 20 =",
+            "answer": 19,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q4",
+            "type": "calc",
+            "prompt": "77 - 40 =",
+            "answer": 37,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q5",
+            "type": "calc",
+            "prompt": "67 - 30 =",
+            "answer": 37,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q6",
+            "type": "calc",
+            "prompt": "20 + 78 =",
+            "answer": 98,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q7",
+            "type": "calc",
+            "prompt": "68 - 25 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q8",
+            "type": "calc",
+            "prompt": "48 - 3 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q9",
+            "type": "calc",
+            "prompt": "59 - 30 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q10",
+            "type": "calc",
+            "prompt": "69 - 40 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q11",
+            "type": "calc",
+            "prompt": "75 - 3 =",
+            "answer": 72,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d24-s1-q12",
+            "type": "calc",
+            "prompt": "63 + 6 =",
+            "answer": 69,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "我会选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "两个相同且直角边分别为3厘米和4厘米的直角三角形，沿斜边拼合，能拼成什么图形？",
+            "options": [
+              {
+                "label": "①长方形",
+                "value": 0
+              },
+              {
+                "label": "②正方形",
+                "value": 1
+              },
+              {
+                "label": "③三角形",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "hint": "沿斜边拼合后，对边分别相等且四个角都是直角",
+            "id": "d24-s2-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "30个鸡蛋每盒7个，最多装满几盒？",
+            "options": [
+              {
+                "label": "①3",
+                "value": 0
+              },
+              {
+                "label": "②4",
+                "value": 1
+              },
+              {
+                "label": "③5",
+                "value": 2
+              }
+            ],
+            "answer": 1,
+            "id": "d24-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "照样子填数",
+        "icon": "🔗",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "36与6相连中间是42。18与40相连？",
+            "answer": 58,
+            "id": "d24-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "9与57相连？",
+            "answer": 66,
+            "id": "d24-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "3与66相连？",
+            "answer": 69,
+            "id": "d24-s3-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "66与8相连？",
+            "answer": 74,
+            "id": "d24-s3-q4"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "6+18、18+40、40+9、9+57、57+3、3+66、66+8 的和（写前4个）",
+            "blanks": 4,
+            "answer": [
+              24,
+              58,
+              49,
+              66
+            ],
+            "accept": [
+              [
+                24,
+                58,
+                49,
+                66
+              ],
+              [
+                "24",
+                "58",
+                "49",
+                "66"
+              ]
+            ],
+            "id": "d24-s3-q5"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "👥",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "从前数小明第18，从后数第15，一共几人？",
+            "answer": 32,
+            "hint": "18+15-1",
+            "id": "d24-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🪚",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "锯成5段要4分钟，锯成7段要几分钟？",
+            "answer": 6,
+            "id": "d24-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d24-app-boost-1",
+            "type": "word",
+            "prompt": "小明存钱罐有 65 元，又存 20 元，取出 15 元，现在有多少元？",
+            "answer": 70,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-2",
+            "type": "word",
+            "prompt": "足球队有 22 人，篮球队比足球队少 7 人，篮球队有几人？",
+            "answer": 15,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-3",
+            "type": "word",
+            "prompt": "一本书 48 页，每天看 8 页，看了 3 天，还剩几页？",
+            "answer": 24,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-4",
+            "type": "word",
+            "prompt": "商店运来 100 个西瓜，卖出 36 个，又运来 20 个，现在有几个？",
+            "answer": 84,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-5",
+            "type": "word",
+            "prompt": "小强有 18 颗弹珠，小刚比他多 9 颗，小刚有几颗？",
+            "answer": 27,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-6",
+            "type": "word",
+            "prompt": "1 元等于多少角？",
+            "answer": 10,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-7",
+            "type": "word",
+            "prompt": "一班有 32 人，二班有 29 人，两班一共多少人？",
+            "answer": 61,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-8",
+            "type": "word",
+            "prompt": "一根 2 米的木头锯成 4 段，每段多少厘米？",
+            "answer": 50,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-9",
+            "type": "word",
+            "prompt": "小明存钱罐有 65 元，又存 20 元，取出 15 元，现在有多少元？（练9）",
+            "answer": 70,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d24-app-boost-10",
+            "type": "word",
+            "prompt": "足球队有 22 人，篮球队比足球队少 7 人，篮球队有几人？（练10）",
+            "answer": 15,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "title": "第 25 天 · 选择与灯笼",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d25-s1-q1",
+            "type": "calc",
+            "prompt": "32 - 30 =",
+            "answer": 2,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q2",
+            "type": "calc",
+            "prompt": "65 - 4 =",
+            "answer": 61,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q3",
+            "type": "calc",
+            "prompt": "53 - 50 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q4",
+            "type": "calc",
+            "prompt": "68 - 5 =",
+            "answer": 63,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q5",
+            "type": "calc",
+            "prompt": "47 - 4 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q6",
+            "type": "calc",
+            "prompt": "36 + 23 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q7",
+            "type": "calc",
+            "prompt": "74 - 20 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q8",
+            "type": "calc",
+            "prompt": "86 - 5 =",
+            "answer": 81,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q9",
+            "type": "calc",
+            "prompt": "74 - 3 =",
+            "answer": 71,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q10",
+            "type": "calc",
+            "prompt": "75 - 30 =",
+            "answer": 45,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q11",
+            "type": "calc",
+            "prompt": "68 - 50 =",
+            "answer": 18,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d25-s1-q12",
+            "type": "calc",
+            "prompt": "64 + 32 =",
+            "answer": 96,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "我会选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "红花89朵，黄花比红花少得多。黄花可能有",
+            "options": [
+              {
+                "label": "①90",
+                "value": 0
+              },
+              {
+                "label": "②88",
+                "value": 1
+              },
+              {
+                "label": "③25",
+                "value": 2
+              }
+            ],
+            "answer": 2,
+            "id": "d25-s2-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "2张1元、2张5角、5张1角组成",
+            "options": [
+              {
+                "label": "①3元",
+                "value": 0
+              },
+              {
+                "label": "②3元5角",
+                "value": 1
+              },
+              {
+                "label": "③10元",
+                "value": 2
+              }
+            ],
+            "answer": 1,
+            "id": "d25-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "算一算（灯笼）",
+        "icon": "🏮",
+        "questions": [
+          {
+            "type": "chain",
+            "prompt": "从13",
+            "start": 13,
+            "ops": [
+              "+9",
+              "+20",
+              "+4",
+              "+30"
+            ],
+            "answer": [
+              22,
+              42,
+              46,
+              76
+            ],
+            "id": "d25-s3-q1"
+          },
+          {
+            "type": "chain",
+            "prompt": "从22",
+            "start": 22,
+            "ops": [
+              "+8",
+              "+10",
+              "+20",
+              "+5"
+            ],
+            "answer": [
+              30,
+              40,
+              60,
+              65
+            ],
+            "id": "d25-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🍬",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小明37颗糖，小红比小明少19，小红？",
+            "answer": 18,
+            "id": "d25-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小优比小轩多6个苹果，送给小轩一些后两人一样多。小优送了几个？",
+            "answer": 3,
+            "id": "d25-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d25-app-boost-1",
+            "type": "word",
+            "prompt": "动物园有 15 只猴子，又来了 8 只，跑掉 3 只，现在有几只？",
+            "answer": 20,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-2",
+            "type": "word",
+            "prompt": "小美有 3 个 10 元，买玩具花了 18 元，还剩多少元？",
+            "answer": 12,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-3",
+            "type": "word",
+            "prompt": "操场一圈 200 米，小华跑了 2 圈，一共跑了多少米？",
+            "answer": 400,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-4",
+            "type": "word",
+            "prompt": "果园有 56 棵桃树，梨树比桃树少 14 棵，梨树有几棵？",
+            "answer": 42,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-5",
+            "type": "word",
+            "prompt": "一袋大米 25 千克，用去 8 千克，还剩多少千克？",
+            "answer": 17,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-6",
+            "type": "word",
+            "prompt": "图书馆有故事书 80 本，借出 27 本，还剩几本？",
+            "answer": 53,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-7",
+            "type": "word",
+            "prompt": "小明做了 12 道口算，全对 9 道，错了几道？",
+            "answer": 3,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-8",
+            "type": "word",
+            "prompt": "一支笔 3 元，买 7 支要多少元？",
+            "answer": 21,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d25-app-boost-9",
+            "type": "word",
+            "prompt": "水池里有 45 条鱼，捞出 19 条，又放进 6 条，现在有几条？",
+            "answer": 32,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "title": "第 26 天 · 树叶竖式",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d26-s1-q1",
+            "type": "calc",
+            "prompt": "4 + 46 =",
+            "answer": 50,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q2",
+            "type": "calc",
+            "prompt": "26 + 3 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q3",
+            "type": "calc",
+            "prompt": "35 + 7 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q4",
+            "type": "calc",
+            "prompt": "6 + 46 =",
+            "answer": 52,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q5",
+            "type": "calc",
+            "prompt": "28 + 4 =",
+            "answer": 32,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q6",
+            "type": "calc",
+            "prompt": "7 + 25 =",
+            "answer": 32,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q7",
+            "type": "calc",
+            "prompt": "36 + 5 =",
+            "answer": 41,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q8",
+            "type": "calc",
+            "prompt": "47 + 2 =",
+            "answer": 49,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q9",
+            "type": "calc",
+            "prompt": "7 + 52 =",
+            "answer": 59,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q10",
+            "type": "calc",
+            "prompt": "36 + 50 =",
+            "answer": 86,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q11",
+            "type": "calc",
+            "prompt": "47 + 7 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d26-s1-q12",
+            "type": "calc",
+            "prompt": "89 + 2 =",
+            "answer": 91,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "树叶藏数",
+        "icon": "🍃",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "4□−28=14，□里应填几？",
+            "answer": 2,
+            "hint": "42−28=14",
+            "id": "d26-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "45−3□=6，□=？",
+            "answer": 9,
+            "id": "d26-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "8□−53=29，□=？",
+            "answer": 2,
+            "hint": "82−53=29",
+            "id": "d26-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "82−53=？",
+            "answer": 29,
+            "id": "d26-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "我会选",
+        "icon": "✅",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "一本数学书价格约为",
+            "options": [
+              {
+                "label": "①60元7角",
+                "value": 0
+              },
+              {
+                "label": "②6元7角",
+                "value": 1
+              },
+              {
+                "label": "③6角7分",
+                "value": 2
+              }
+            ],
+            "answer": 1,
+            "id": "d26-s3-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "个位十位相同且比60小的两位数可能是",
+            "options": [
+              {
+                "label": "①44",
+                "value": 0
+              },
+              {
+                "label": "②56",
+                "value": 1
+              },
+              {
+                "label": "③77",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "id": "d26-s3-q2"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🚌",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "车上36人，下去8上来12，现在几人？",
+            "answer": 40,
+            "id": "d26-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🛢️",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "连桶重19kg，吃一半油后连桶12kg。吃掉油（）kg，原有油（）kg",
+            "blanks": 2,
+            "answer": [
+              7,
+              14
+            ],
+            "accept": [
+              [
+                7,
+                14
+              ],
+              [
+                "7",
+                "14"
+              ]
+            ],
+            "hint": "半桶油=19-12=7，原油14",
+            "id": "d26-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d26-app-boost-1",
+            "type": "word",
+            "prompt": "温度从 8 度降到 0 度，降了多少度？",
+            "answer": 8,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-2",
+            "type": "word",
+            "prompt": "堆了 36 个雪球，融化 15 个，又堆 10 个，现在有几个？",
+            "answer": 31,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-3",
+            "type": "word",
+            "prompt": "滑冰场有 48 人，离开 16 人，又来 9 人，现在有几人？",
+            "answer": 41,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-4",
+            "type": "word",
+            "prompt": "羽绒服 99 元，优惠 20 元，现价多少元？",
+            "answer": 79,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-5",
+            "type": "word",
+            "prompt": "小雪有 25 张贺卡，送出 8 张，又得到 12 张，现在有几张？",
+            "answer": 29,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-6",
+            "type": "word",
+            "prompt": "热水 80 度，冷却后 35 度，温度降了多少度？",
+            "answer": 45,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-7",
+            "type": "word",
+            "prompt": "冰棍 2 元一根，买 6 根要多少元？",
+            "answer": 12,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-8",
+            "type": "word",
+            "prompt": "做 5 个雪人，每个用 1 根胡萝卜，要几根？",
+            "answer": 5,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-9",
+            "type": "word",
+            "prompt": "图书馆冬天开放 30 天，小明去了 18 天，没去几天？",
+            "answer": 12,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d26-app-boost-10",
+            "type": "word",
+            "prompt": "温度从 8 度降到 0 度，降了多少度？（练10）",
+            "answer": 8,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "title": "第 27 天 · 我会数",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d27-s1-q1",
+            "type": "calc",
+            "prompt": "94 - 40 =",
+            "answer": 54,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q2",
+            "type": "calc",
+            "prompt": "88 - 7 =",
+            "answer": 81,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q3",
+            "type": "calc",
+            "prompt": "63 - 50 =",
+            "answer": 13,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q4",
+            "type": "calc",
+            "prompt": "73 - 40 =",
+            "answer": 33,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q5",
+            "type": "calc",
+            "prompt": "65 - 5 =",
+            "answer": 60,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q6",
+            "type": "calc",
+            "prompt": "7 + 36 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q7",
+            "type": "calc",
+            "prompt": "71 - 50 =",
+            "answer": 21,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q8",
+            "type": "calc",
+            "prompt": "45 - 20 =",
+            "answer": 25,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q9",
+            "type": "calc",
+            "prompt": "89 - 40 =",
+            "answer": 49,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q10",
+            "type": "calc",
+            "prompt": "76 - 50 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q11",
+            "type": "calc",
+            "prompt": "5 - 2 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d27-s1-q12",
+            "type": "calc",
+            "prompt": "45 - 2 =",
+            "answer": 43,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "填空题",
+        "icon": "✍️",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "44中十位4比个位4多多少（40−4）？",
+            "answer": 36,
+            "id": "d27-s2-q1"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "最小两位数（），再加上（）得最大两位数",
+            "blanks": 2,
+            "answer": [
+              10,
+              89
+            ],
+            "accept": [
+              [
+                10,
+                89
+              ],
+              [
+                "10",
+                "89"
+              ]
+            ],
+            "id": "d27-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "被减数40减数6，差？",
+            "answer": 34,
+            "id": "d27-s2-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "比70大比90小且个位5的数",
+            "blanks": 2,
+            "answer": [
+              75,
+              85
+            ],
+            "accept": [
+              [
+                75,
+                85
+              ],
+              [
+                85,
+                75
+              ],
+              [
+                "75",
+                "85"
+              ],
+              [
+                "85",
+                "75"
+              ]
+            ],
+            "id": "d27-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "我会数",
+        "icon": "🚂",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "一幅图中有5个圆、3个长方形、2个三角形、1个正方形和1个平行四边形。圆有几个？",
+            "answer": 5,
+            "id": "d27-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "图中有3个长方形、2个三角形、1个正方形、1个平行四边形和5个圆，一共有几个图形？",
+            "answer": 12,
+            "id": "d27-s3-q2"
+          },
+          {
+            "type": "word",
+            "prompt": "图中有3个长方形、2个三角形、1个正方形、1个平行四边形和5个圆。数量最多的是什么图形？",
+            "answer": "圆",
+            "accept": [
+              "圆",
+              "圆形",
+              "○"
+            ],
+            "id": "d27-s3-q3"
+          },
+          {
+            "type": "word",
+            "prompt": "图中有3个长方形、2个三角形、1个正方形、1个平行四边形和5个圆。数量最少的图形有两种，写任意一种。",
+            "answer": "正方形",
+            "accept": [
+              "正方形",
+              "平行四边形",
+              "□"
+            ],
+            "id": "d27-s3-q4"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🚗",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小汽车45辆，又来9辆小汽车（公交不计）。小汽车？",
+            "answer": 54,
+            "id": "d27-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🤝",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "5人两两握手，共几次？",
+            "answer": 10,
+            "id": "d27-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d27-app-boost-1",
+            "type": "word",
+            "prompt": "一本书 64 页，第一天读 20 页，第二天读 25 页，还剩几页？",
+            "answer": 19,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d27-app-boost-2",
+            "type": "word",
+            "prompt": "一袋面粉 5 千克，买了 4 袋，一共多少千克？",
+            "answer": 20,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d27-app-boost-3",
+            "type": "word",
+            "prompt": "教室有 6 组同学，每组 6 人，一共多少人？",
+            "answer": 36,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d27-app-boost-4",
+            "type": "word",
+            "prompt": "小华有 40 元，文具 15 元，零食 9 元，还剩多少元？",
+            "answer": 16,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d27-app-boost-5",
+            "type": "word",
+            "prompt": "停车场有 3 排车，每排 12 辆，一共多少辆？",
+            "answer": 36,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "title": "第 28 天 · 列式计算",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d28-s1-q1",
+            "type": "calc",
+            "prompt": "56 + 40 =",
+            "answer": 96,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q2",
+            "type": "calc",
+            "prompt": "4 + 53 =",
+            "answer": 57,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q3",
+            "type": "calc",
+            "prompt": "43 + 40 =",
+            "answer": 83,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q4",
+            "type": "calc",
+            "prompt": "51 + 20 =",
+            "answer": 71,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q5",
+            "type": "calc",
+            "prompt": "5 + 21 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q6",
+            "type": "calc",
+            "prompt": "84 - 4 =",
+            "answer": 80,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q7",
+            "type": "calc",
+            "prompt": "63 - 60 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q8",
+            "type": "calc",
+            "prompt": "60 + 11 =",
+            "answer": 71,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q9",
+            "type": "calc",
+            "prompt": "35 + 7 =",
+            "answer": 42,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q10",
+            "type": "calc",
+            "prompt": "66 - 30 =",
+            "answer": 36,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q11",
+            "type": "calc",
+            "prompt": "4 + 54 =",
+            "answer": 58,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q12",
+            "type": "calc",
+            "prompt": "32 - 4 =",
+            "answer": 28,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q13",
+            "type": "calc",
+            "prompt": "47 - 30 =",
+            "answer": 17,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d28-s1-q14",
+            "type": "calc",
+            "prompt": "75 - 40 =",
+            "answer": 35,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "看图列式",
+        "icon": "📏",
+        "questions": [
+          {
+            "type": "expression",
+            "prompt": "共62根，拿走一些还剩图中数量。若可见部分是50，拿走？列式62-50=12或写出拿走根数",
+            "answer": 12,
+            "accept": [
+              12,
+              "62-50=12"
+            ],
+            "id": "d28-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "6捆2根（每捆10）=？",
+            "answer": 62,
+            "id": "d28-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "7捆5根=？",
+            "answer": 75,
+            "id": "d28-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "75−35=？",
+            "answer": 40,
+            "id": "d28-s2-q4"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "脱式计算",
+        "icon": "🧮",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "94−(71−17)=？",
+            "answer": 40,
+            "id": "d28-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "43+(30−17)=？",
+            "answer": 56,
+            "id": "d28-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "76−(33−25)=？",
+            "answer": 68,
+            "id": "d28-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🚌",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "到站下16上24，现有44人。起点上车多少人？",
+            "answer": 36,
+            "id": "d28-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "💡",
+        "questions": [
+          {
+            "type": "multi_blank",
+            "prompt": "灯初始熄灭，每拉一次开关就亮灭交替。拉10次后状态（亮填1、灭填0）（）；拉47次后亮的状态（），灭的状态（）。",
+            "blanks": 3,
+            "answer": [
+              0,
+              1,
+              0
+            ],
+            "accept": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                "0",
+                "1",
+                "0"
+              ],
+              [
+                0,
+                "亮",
+                "不亮"
+              ]
+            ],
+            "id": "d28-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d28-app-boost-1",
+            "type": "word",
+            "prompt": "水池已有 35 升，又注入 28 升，现在有多少升？",
+            "answer": 63,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-2",
+            "type": "word",
+            "prompt": "小明走了 450 米，离学校还有 150 米，家到学校一共多少米？",
+            "answer": 600,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-3",
+            "type": "word",
+            "prompt": "一箱橘子 36 个，分给 9 个小朋友，每人几个？",
+            "answer": 4,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-4",
+            "type": "word",
+            "prompt": "进货 80 件，卖出 45 件，又进 20 件，现有几件？",
+            "answer": 55,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-5",
+            "type": "word",
+            "prompt": "爸爸 35 岁，小明 8 岁，爸爸比小明大几岁？",
+            "answer": 27,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-6",
+            "type": "word",
+            "prompt": "一本书 3 元，买 9 本要多少元？",
+            "answer": 27,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-7",
+            "type": "word",
+            "prompt": "绳子长 72 厘米，对折一次后有多长？",
+            "answer": 36,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-8",
+            "type": "word",
+            "prompt": "操场长 80 米、宽 50 米，绕一圈多少米？",
+            "answer": 260,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-9",
+            "type": "word",
+            "prompt": "火车 12 节车厢，每节 48 人，一共能坐多少人？",
+            "answer": 576,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-10",
+            "type": "word",
+            "prompt": "水池已有 35 升，又注入 28 升，现在有多少升？（练10）",
+            "answer": 63,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d28-app-boost-11",
+            "type": "word",
+            "prompt": "小明走了 450 米，离学校还有 150 米，家到学校一共多少米？（练11）",
+            "answer": 600,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "title": "第 29 天 · 规律连加",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d29-s1-q1",
+            "type": "calc",
+            "prompt": "6 + 7 + 6 =",
+            "answer": 19,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q2",
+            "type": "calc",
+            "prompt": "6 + 4 - 3 =",
+            "answer": 7,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q3",
+            "type": "calc",
+            "prompt": "2 + 5 + 4 =",
+            "answer": 11,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q4",
+            "type": "calc",
+            "prompt": "7 - 6 + 9 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q5",
+            "type": "calc",
+            "prompt": "3 + 2 + 5 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q6",
+            "type": "calc",
+            "prompt": "6 + 6 - 2 =",
+            "answer": 10,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q7",
+            "type": "calc",
+            "prompt": "5 + 4 + 5 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q8",
+            "type": "calc",
+            "prompt": "3 + 4 + 7 =",
+            "answer": 14,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q9",
+            "type": "calc",
+            "prompt": "10 - 1 + 8 =",
+            "answer": 17,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d29-s1-q10",
+            "type": "calc",
+            "prompt": "8 - 8 + 5 =",
+            "answer": 5,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "找规律",
+        "icon": "🎨",
+        "questions": [
+          {
+            "type": "choice",
+            "prompt": "黑白珠相间，第1颗黑，第10颗是？",
+            "options": [
+              {
+                "label": "黑",
+                "value": "黑"
+              },
+              {
+                "label": "白",
+                "value": "白"
+              }
+            ],
+            "answer": "白",
+            "id": "d29-s2-q1"
+          },
+          {
+            "type": "choice",
+            "prompt": "图案按“空白方、阴影三角、竖纹圆、斜纹菱形”循环排列，斜纹菱形后面应是什么？",
+            "options": [
+              {
+                "label": "①空白方",
+                "value": 0
+              },
+              {
+                "label": "②空白三角",
+                "value": 1
+              },
+              {
+                "label": "③空白圆",
+                "value": 2
+              }
+            ],
+            "answer": 0,
+            "hint": "阴影/纹样与空白交替，形状循环",
+            "id": "d29-s2-q2"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "连加计算",
+        "icon": "➕",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "17+5+24=？",
+            "answer": 46,
+            "id": "d29-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "39+13+22=？",
+            "answer": 74,
+            "id": "d29-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "36+21+25=？",
+            "answer": 82,
+            "id": "d29-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "🪢",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "三人各跳20下，一共？",
+            "answer": 60,
+            "id": "d29-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "🧠",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "3、5、9、15、（ ）、33",
+            "answer": 23,
+            "hint": "+2+4+6+8+10",
+            "id": "d29-s5-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "5、2、6、2、8、2、11、2、15、2、（ ）、2、26",
+            "answer": 20,
+            "hint": "隔项+1,+2,+3...",
+            "id": "d29-s5-q2"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "13、31、24、42、35、53、（）、（）、57、75",
+            "blanks": 2,
+            "answer": [
+              46,
+              64
+            ],
+            "accept": [
+              [
+                46,
+                64
+              ],
+              [
+                "46",
+                "64"
+              ]
+            ],
+            "id": "d29-s5-q3"
+          },
+          {
+            "type": "multi_blank",
+            "prompt": "1、3、5、7后三个奇数；2、4、6、8后三个偶数。用逗号：奇数们,偶数们 如9,11,13,10,12,14",
+            "blanks": 1,
+            "answer": [
+              "9,11,13,10,12,14"
+            ],
+            "accept": [
+              [
+                "9,11,13,10,12,14"
+              ],
+              [
+                "9，11，13，10，12，14"
+              ]
+            ],
+            "id": "d29-s5-q4"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "应用加强练",
+        "icon": "📝",
+        "questions": [
+          {
+            "id": "d29-app-boost-1",
+            "type": "word",
+            "prompt": "联欢会 60 个座位，已坐 38 人，还能坐几人？",
+            "answer": 22,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-2",
+            "type": "word",
+            "prompt": "合唱队 24 人，舞蹈队 18 人，一共多少人？",
+            "answer": 42,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-3",
+            "type": "word",
+            "prompt": "暑假读了 5 本书，每本 30 页，大约读了多少页？",
+            "answer": 150,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-4",
+            "type": "word",
+            "prompt": "一班捐书 45 本，二班 52 本，一共捐了多少本？",
+            "answer": 97,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-5",
+            "type": "word",
+            "prompt": "夏令营 7 天，已过 4 天，还剩几天？",
+            "answer": 3,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-6",
+            "type": "word",
+            "prompt": "拍了 36 张照片，删掉 9 张，又拍 12 张，现在有几张？",
+            "answer": 39,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-7",
+            "type": "word",
+            "prompt": "一箱水 24 瓶，喝了 8 瓶，又买一箱，现在有几瓶？",
+            "answer": 40,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-8",
+            "type": "word",
+            "prompt": "剧院 8 排座位，每排 15 个，一共多少座位？",
+            "answer": 120,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d29-app-boost-9",
+            "type": "word",
+            "prompt": "联欢会 60 个座位，已坐 38 人，还能坐几人？（练9）",
+            "answer": 22,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "title": "第 30 天 · 毕业挑战",
+    "sections": [
+      {
+        "id": "s1",
+        "name": "口算",
+        "icon": "⚡",
+        "questions": [
+          {
+            "id": "d30-s1-q1",
+            "type": "calc",
+            "prompt": "75 - 3 =",
+            "answer": 72,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q2",
+            "type": "calc",
+            "prompt": "88 - 5 =",
+            "answer": 83,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q3",
+            "type": "calc",
+            "prompt": "56 - 4 =",
+            "answer": 52,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q4",
+            "type": "calc",
+            "prompt": "89 - 7 =",
+            "answer": 82,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q5",
+            "type": "calc",
+            "prompt": "46 - 20 =",
+            "answer": 26,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q6",
+            "type": "calc",
+            "prompt": "8 + 3 =",
+            "answer": 11,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q7",
+            "type": "calc",
+            "prompt": "24 - 4 =",
+            "answer": 20,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q8",
+            "type": "calc",
+            "prompt": "69 - 40 =",
+            "answer": 29,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q9",
+            "type": "calc",
+            "prompt": "47 - 3 =",
+            "answer": 44,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q10",
+            "type": "calc",
+            "prompt": "38 - 7 =",
+            "answer": 31,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q11",
+            "type": "calc",
+            "prompt": "84 - 4 =",
+            "answer": 80,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q12",
+            "type": "calc",
+            "prompt": "63 - 60 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q13",
+            "type": "calc",
+            "prompt": "17 - 9 =",
+            "answer": 8,
+            "hint": "从左到右一步一步算"
+          },
+          {
+            "id": "d30-s1-q14",
+            "type": "calc",
+            "prompt": "12 - 9 =",
+            "answer": 3,
+            "hint": "从左到右一步一步算"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "name": "算一算",
+        "icon": "🦒",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "41+7=？",
+            "answer": 48,
+            "id": "d30-s2-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "52+2=？",
+            "answer": 54,
+            "id": "d30-s2-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "62+4=？",
+            "answer": 66,
+            "id": "d30-s2-q3"
+          },
+          {
+            "type": "calc",
+            "prompt": "27+2=？",
+            "answer": 29,
+            "id": "d30-s2-q4"
+          },
+          {
+            "type": "calc",
+            "prompt": "65+1=？",
+            "answer": 66,
+            "id": "d30-s2-q5"
+          },
+          {
+            "type": "calc",
+            "prompt": "46+2=？",
+            "answer": 48,
+            "id": "d30-s2-q6"
+          },
+          {
+            "type": "calc",
+            "prompt": "50+4=？",
+            "answer": 54,
+            "id": "d30-s2-q7"
+          },
+          {
+            "type": "calc",
+            "prompt": "25+4=？",
+            "answer": 29,
+            "id": "d30-s2-q8"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "name": "连加计算",
+        "icon": "➕",
+        "questions": [
+          {
+            "type": "calc",
+            "prompt": "12+17+31=？",
+            "answer": 60,
+            "id": "d30-s3-q1"
+          },
+          {
+            "type": "calc",
+            "prompt": "34+9+14=？",
+            "answer": 57,
+            "id": "d30-s3-q2"
+          },
+          {
+            "type": "calc",
+            "prompt": "26+38+29=？",
+            "answer": 93,
+            "id": "d30-s3-q3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "name": "应用题",
+        "icon": "📚",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "小张18本书，我3本，我比小张少几本？",
+            "answer": 15,
+            "id": "d30-s4-q1"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "name": "思维题",
+        "icon": "👩‍🏫",
+        "questions": [
+          {
+            "type": "word",
+            "prompt": "黄老师今年28岁。6年前她比明明大20岁。明明今年？",
+            "answer": 8,
+            "hint": "年龄差一直是20岁，所以28−20=8",
+            "id": "d30-s5-q1"
+          }
+        ]
+      },
+      {
+        "id": "s-app-boost",
+        "name": "毕业应用验收",
+        "icon": "🎓",
+        "questions": [
+          {
+            "id": "d30-app-boost-1",
+            "type": "word",
+            "prompt": "【毕业】小明有 56 元，书包 28 元，文具 9 元，还剩多少元？",
+            "answer": 19,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-2",
+            "type": "word",
+            "prompt": "【毕业】一班 32 人，二班 35 人，三班 29 人，一共多少人？",
+            "answer": 96,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-3",
+            "type": "word",
+            "prompt": "【毕业】4 袋大米，每袋 10 千克，一共多少千克？",
+            "answer": 40,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-4",
+            "type": "word",
+            "prompt": "【毕业】树上 48 只鸟，飞走 15 只，飞来 7 只，现在有几只？",
+            "answer": 40,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-5",
+            "type": "word",
+            "prompt": "【毕业】绳子 100 厘米，剪去 35 厘米，接上 20 厘米，现在多长？",
+            "answer": 85,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-6",
+            "type": "word",
+            "prompt": "【毕业】周一读 15 页，周二 18 页，周三 12 页，三天共几页？",
+            "answer": 45,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-7",
+            "type": "word",
+            "prompt": "【毕业】停车场 60 辆，开走 23 辆，开来 17 辆，现在有几辆？",
+            "answer": 54,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-8",
+            "type": "word",
+            "prompt": "【毕业】1 元 5 角等于多少角？",
+            "answer": 15,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-9",
+            "type": "word",
+            "prompt": "【毕业】一盒彩笔 12 支，买 5 盒一共多少支？",
+            "answer": 60,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-10",
+            "type": "word",
+            "prompt": "【毕业】小明 135 厘米，姐姐高 12 厘米，姐姐身高多少厘米？",
+            "answer": 147,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-11",
+            "type": "word",
+            "prompt": "【毕业】一本书 80 页，看了 47 页，还剩几页？",
+            "answer": 33,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-12",
+            "type": "word",
+            "prompt": "【毕业】桃树 25 棵、梨树 30 棵、苹果树 28 棵，一共多少棵？",
+            "answer": 83,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-13",
+            "type": "word",
+            "prompt": "【毕业】3 张 10 元，买玩具 18 元，还剩多少元？",
+            "answer": 12,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-14",
+            "type": "word",
+            "prompt": "【毕业】操场一圈 200 米，跑 3 圈一共多少米？",
+            "answer": 600,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-15",
+            "type": "word",
+            "prompt": "【毕业】水池 90 升，放出 35 升，注入 20 升，现在多少升？",
+            "answer": 75,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-16",
+            "type": "word",
+            "prompt": "【毕业】教室 6 排桌，每排 7 张，一共多少张？",
+            "answer": 42,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-17",
+            "type": "word",
+            "prompt": "【毕业】爸爸 38 岁，小明 9 岁，爸爸比小明大几岁？",
+            "answer": 29,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-18",
+            "type": "word",
+            "prompt": "【毕业】冰棍 2 元一根，买 9 支要多少元？",
+            "answer": 18,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-19",
+            "type": "word",
+            "prompt": "【毕业】故事书 120 本，借出 45 本，还剩几本？",
+            "answer": 75,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-20",
+            "type": "word",
+            "prompt": "【毕业】夏天 31 天，过了 18 天，还剩几天？",
+            "answer": 13,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-21",
+            "type": "expression",
+            "prompt": "看图：左边 24 个苹果，右边 18 个，一共多少个？（只填得数）",
+            "answer": 42,
+            "hint": "读题三步：已知什么？求什么？用加还是减？",
+            "visual": "24 + 18"
+          },
+          {
+            "id": "d30-app-boost-22",
+            "type": "expression",
+            "prompt": "看图：原有 50 个气球，飞走 16 个，还剩几个？（只填得数）",
+            "answer": 34,
+            "hint": "读题三步：已知什么？求什么？用加还是减？",
+            "visual": "50 − 16"
+          },
+          {
+            "id": "d30-app-boost-23",
+            "type": "multi_blank",
+            "prompt": "填空：1 元 = （  ）角 = （  ）分",
+            "answer": [
+              10,
+              100
+            ],
+            "hint": "按从左到右填空，注意单位换算。",
+            "blanks": 2
+          },
+          {
+            "id": "d30-app-boost-24",
+            "type": "multi_blank",
+            "prompt": "填空：比 36 多 8 的数是（  ），比 36 少 8 的数是（  ）",
+            "answer": [
+              44,
+              28
+            ],
+            "hint": "按从左到右填空，注意单位换算。",
+            "blanks": 2
+          },
+          {
+            "id": "d30-app-boost-25",
+            "type": "word",
+            "prompt": "【毕业】小明有 56 元，书包 28 元，文具 9 元，还剩多少元？（练25）",
+            "answer": 19,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-26",
+            "type": "word",
+            "prompt": "【毕业】一班 32 人，二班 35 人，三班 29 人，一共多少人？（练26）",
+            "answer": 96,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-27",
+            "type": "word",
+            "prompt": "【毕业】4 袋大米，每袋 10 千克，一共多少千克？（练27）",
+            "answer": 40,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-28",
+            "type": "word",
+            "prompt": "【毕业】树上 48 只鸟，飞走 15 只，飞来 7 只，现在有几只？（练28）",
+            "answer": 40,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          },
+          {
+            "id": "d30-app-boost-29",
+            "type": "word",
+            "prompt": "【毕业】绳子 100 厘米，剪去 35 厘米，接上 20 厘米，现在多长？（练29）",
+            "answer": 85,
+            "hint": "读题三步：已知什么？求什么？用加还是减？"
+          }
+        ]
+      }
+    ]
+  }
+]

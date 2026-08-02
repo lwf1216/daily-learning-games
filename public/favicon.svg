@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="语数英每日打卡">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7066ff"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+  <path d="M17 20h30v27H17z" fill="#fff" opacity=".96"/>
+  <path d="M32 20v27M21 26h7m8 0h7M21 33h7m8 0h7M21 40h7m8 0h7" stroke="#5b4cf0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M13 17h38v5H13z" fill="#fbbf24"/>
+</svg>
