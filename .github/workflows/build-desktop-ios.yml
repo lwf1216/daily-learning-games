@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - name: 构建前端（相对路径，兼容本地加载）
         run: |
-          npm ci
+          npm install
           npm run build -- --base=./
       - name: 拷贝前端产物到桌面工程
         shell: pwsh
@@ -26,7 +26,7 @@ jobs:
       - name: 打包 Windows 安装包
         working-directory: desktop
         run: |
-          npm ci
+          npm install
           npx electron-builder --win nsis --x64
       - uses: actions/upload-artifact@v4
         with:
@@ -44,7 +44,7 @@ jobs:
           node-version: 20
       - name: 构建前端
         run: |
-          npm ci
+          npm install
           npm run build -- --base=./
       - name: 添加并同步 Web 资源到 iOS 工程
         run: |
